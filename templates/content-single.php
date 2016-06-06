@@ -1,4 +1,24 @@
-<?php while (have_posts()) : the_post(); ?>
+<?php
+/**
+ * The template for displaying blog content
+ *
+ * @package Capoeira Studio
+ * @author Quilombola Engineering
+ */
+
+global $wp_query;
+
+$capoeirastudio_post_id = $wp_query->get_queried_object_id();
+$capoeirastudio_blog_detail_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'capoeirastudio-blog-detail-thumbnail' ) );
+$capoeirastudio_uid = get_current_user_id();
+
+$capoeirastudio_attr = array(
+        'src'   => $capoeirastudio_blog_detail_url,
+        'class' => "img-responsive",
+        'alt'   => get_the_title()
+);
+
+while (have_posts()) : the_post(); ?>
 	<article <?php post_class(); ?>>
 		<header class="post-header">
 		        <!-- slider animation -->

@@ -1,4 +1,4 @@
-<?php get_template_part('templates/post-header', 'header'); ?>
+<?php get_template_part('templates/header', 'header'); ?>
 
 <section id="404" class="404">
 	<div class="alert alert-warning">
