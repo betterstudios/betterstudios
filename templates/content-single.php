@@ -73,6 +73,9 @@ while (have_posts()) : the_post(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
+                                    <div class="author-avatar">
+                                        <?php echo get_avatar( get_the_author_meta( 'ID' ), 70 ); ?>
+                                    </div>
 						<div class="author_bio">
 						        <h4><?php _e( 'Author Biography:', 'capoeirastudio'); ?></h4>
 						        <div class="title-divider"></div>
