@@ -49,13 +49,26 @@ while (have_posts()) : the_post(); ?>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<?php the_content(); ?>
-						<?php get_template_part('templates/news-share'); ?>
-<div class="author_bio">
-        <h4><?php _e( 'Author Biography:', 'capoeirastudio'); ?></h4>
-        <div class="title-divider"></div>
-        <p><?php the_author_meta( 'description' , $capoeirastudio_uid ); ?></p>
-</div>
+                       <div class="postpagenav">
+                              <ul>
+                                        <?php if (is_attachment()) {
+                                                   previous_image_link( '<li class="prev_page">'.__('&lsaquo;','portfilo').'&nbsp;&nbsp;%link </li>','%title',false);
+                                                   next_image_link( '<li class="next_page">%link&nbsp;&nbsp;'.__('&rsaquo;','portfilo').' </li>','%title',false);
 
+                            } else {
+                                                    previous_post_link( '<li class="prev_page">'.__('&lsaquo;','portfilo').'&nbsp;&nbsp;%link </li>','Previous',false);
+                                                   next_post_link( '<li class="next_page">%link&nbsp;&nbsp;'.__('&rsaquo;','portfilo').' </li>','Next',false);
+
+                                        } ?>
+                                  </ul>
+                                </div>
+
+						<?php get_template_part('templates/news-share'); ?>
+						<div class="author_bio">
+						        <h4><?php _e( 'Author Biography:', 'capoeirastudio'); ?></h4>
+						        <div class="title-divider"></div>
+						        <p><?php the_author_meta( 'description' , $capoeirastudio_uid ); ?></p>
+						</div>
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'samba-capoeira' ), 'after' => '</div>' ) ); ?>
 						<?php posts_nav_link(); ?>
 	    					<?php comments_template('/templates/comments.php'); ?>
