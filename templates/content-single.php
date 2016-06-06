@@ -50,7 +50,12 @@ while (have_posts()) : the_post(); ?>
 					<div class="col-md-8 col-md-offset-2">
 						<?php the_content(); ?>
 						<?php get_template_part('templates/news-share'); ?>
-						<?php get_template_part('templates/content-author'); ?>
+<div class="author_bio">
+        <h4><?php _e( 'Author Biography:', 'capoeirastudio'); ?></h4>
+        <div class="title-divider"></div>
+        <p><?php the_author_meta( 'description' , $capoeirastudio_uid ); ?></p>
+</div>
+
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'samba-capoeira' ), 'after' => '</div>' ) ); ?>
 						<?php posts_nav_link(); ?>
 	    					<?php comments_template('/templates/comments.php'); ?>
