@@ -81,7 +81,7 @@ while (have_posts()) : the_post(); ?>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="author_bio">
-						        <h4>Author Biography: <span class="author-name"><?php the_author_link(); ?></span></h4>
+						        <h4 class="author-name">Author Biography: <span style="color: #000; font-weight: 900"><?php the_author_link(); ?></span></h4>
 						        <div class="title-divider"></div>
 						        <p><?php the_author_meta( 'description' , $capoeirastudio_uid ); ?></p>
 						</div>
