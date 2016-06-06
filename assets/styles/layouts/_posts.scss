@@ -82,6 +82,12 @@
     		font-weight: 400;
 		margin: 2em 0;
 	}
+	.title-divider {
+	    width: 50px;
+	    height: 2px;
+	    background-color: $color-orange;
+	    margin: 5px 2px 5px 0.5px;
+	}
 	p {
 	    	color: #8f8f8f;
 	    	font-size: 13px;
@@ -117,7 +123,7 @@
 	}
 	a.mail:hover {
 	    color:#fff;
-	    background: #a82400;
+	    scale: 1.1;
 	}
 }
 
