@@ -18,9 +18,9 @@
 	<meta property="og:description" content="The community of teachers and students at the Capoeira Studio are focused on improving strength, flexibility, agility, balance, concentration, rhythm, and quality of life through the creative and beautiful movement of the Afro-Brazilian art form called Capoeira." />
 
 	<!-- Custom Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 
 	<!-- FAVICON.ICO -->
 	<link rel="shortcut icon" href="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/favicons/favicon.ico" />
