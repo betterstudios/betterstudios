@@ -13,7 +13,7 @@
 		                </a>
 		                <h1><?php bloginfo('name'); ?></h1>
 		      		<h3 class="wow zoomIn" data-wow-delay="2s">Blog Entry</h3>
-		      		<h2 class="entry-title"><?php the_title(); ?></h2>
+		      		<h4 class="entry-title"><?php the_title(); ?></h4>
 				<?php get_template_part('templates/entry-meta'); ?>
 		                <nav class="nav-primary">
 		                        <?php
@@ -29,8 +29,9 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<?php the_content(); ?>
+						<?php get_template_part('templates/news-share'); ?>
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'samba-capoeira' ), 'after' => '</div>' ) ); ?>
-					<?php posts_nav_link(); ?>
+						<?php posts_nav_link(); ?>
 	    					<?php comments_template('/templates/comments.php'); ?>
 					</div>
 				</div>
