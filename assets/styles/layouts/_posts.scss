@@ -75,6 +75,37 @@
         }
 }
 
+.postpagenav {
+	padding: 50px 0 30px;
+	ul {
+		padding: 0;
+		li {
+			padding: 15px 20px;
+			background: $color-dark;
+			color: #fff;
+			transition: all 0.3s ease-in-out 0s;
+			margin-right: 15px;
+			a {
+				color: #fff;
+				text-decoration: none;
+				outline: 0;
+				border:0;
+			}
+		}
+		li:hover {
+			background: $color-orange;
+		}
+		.next_page {
+			display: inline-block;
+			float: right;
+		}
+		.prev_page {
+			display: inline-block;
+			float: left;
+		}
+	}
+}
+
 .author_bio {
 	h4 {
 		color: #5f5b5b;
