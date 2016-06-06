@@ -30,6 +30,7 @@
 					<div class="col-md-8 col-md-offset-2">
 						<?php the_content(); ?>
 						<?php get_template_part('templates/news-share'); ?>
+						<?php get_template_part('templates/content-author'); ?>
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'samba-capoeira' ), 'after' => '</div>' ) ); ?>
 						<?php posts_nav_link(); ?>
 	    					<?php comments_template('/templates/comments.php'); ?>
