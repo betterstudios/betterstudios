@@ -80,6 +80,7 @@
 		color: #5f5b5b;
 	    	font-size: 18px;
     		font-weight: 400;
+		margin: 2em 0;
 	}
 	p {
 	    	color: #8f8f8f;
@@ -94,6 +95,30 @@
 	}
 	border: 1px solid #666666;
 	border-radius: 3px;
+	a.facebook:hover {
+	    color:#fff;
+	    background: #3b5998;
+	}
+	a.twitter:hover {
+	    color:#fff;
+	    background: #00aced;
+	}
+	a.google:hover {
+	    color:#fff;
+	    background: #dd4b39;
+	}
+	a.pinterest:hover {
+	    color:#fff;
+	    background: #cb2027;
+	}
+	a.linkedin:hover {
+	    color:#fff;
+	    background: #007bb6;
+	}
+	a.mail:hover {
+	    color:#fff;
+	    background: #a82400;
+	}
 }
 
 .entry-content {
