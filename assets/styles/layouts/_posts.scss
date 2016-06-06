@@ -108,9 +108,11 @@
 
 .author-avatar {
 	padding-top: 4em;
-	border-radius: 50%;
-	border: 3px solid $color-light;
-	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .3);
+	img {
+		border-radius: 50%;
+		border: 3px solid $color-light;
+		box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .3);
+	}
 }
 
 .author_bio {
