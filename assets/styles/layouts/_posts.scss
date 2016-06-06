@@ -122,6 +122,15 @@
     		font-weight: 400;
 		margin: 2em 0;
 	}
+	.author-name {
+		font-family: 'Yanone Kaffeesatz';
+		font-size: 24px;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: $color-orange;
+		margin: 40px 0 10px;
+	}
 	.title-divider {
 	    width: 50px;
 	    height: 2px;
