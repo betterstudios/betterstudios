@@ -1,14 +1,21 @@
-<?php get_template_part('templates/post', 'header'); ?>
-
-<?php if (!have_posts()) : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'sage'); ?>
-  </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
-
-<?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-<?php endwhile; ?>
-
-<?php the_posts_navigation(); ?>
+    <?php
+      do_action('get_header');
+      get_template_part('templates/header');
+    ?>
+    <div class="wrap container" role="document">
+      <div class="content row">
+        <main class="main">
+          <?php include Wrapper\template_path(); ?>
+        </main><!-- /.main -->
+        <?php if (Setup\display_sidebar()) : ?>
+          <aside class="sidebar">
+            <?php include Wrapper\sidebar_path(); ?>
+          </aside><!-- /.sidebar -->
+        <?php endif; ?>
+      </div><!-- /.content -->
+    </div><!-- /.wrap -->
+    <?php
+      do_action('get_footer');
+      get_template_part('templates/footer');
+      wp_footer();
+    ?>
