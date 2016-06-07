@@ -1,4 +1,4 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<?php get_template_part('templates/post', 'header'); ?>
 
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
