@@ -9,16 +9,3 @@
 a {
 	color: $color-orange;
 }
-
-.alert {
-	padding: 2em;
-	margin-bottom: 2em;
-	border: 1px solid transparent;
-	border-radius: 4px;
-}
-
-.alert-warning {
-	background-color: $color-yellow;
-	border-color: #color-orange;
-	color: #color-dark;
-}
