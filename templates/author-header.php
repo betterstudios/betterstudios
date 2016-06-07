@@ -11,6 +11,12 @@
                                 </a>
                                 <h1><?php bloginfo('name'); ?></h1>
                                 <h3 class="wow zoomIn" data-wow-delay="2s">Blog Entry</h3>
+				<p class="byline author vcard">
+        				<i class="fa fa-user"></i> 
+					<?= __('postings by', 'sage'); ?> 
+					<a href="<?= get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author" class="fn">
+					<?= get_the_author(); ?></a>
+				</p>
                                 <nav class="nav-primary">
                                         <?php
                                                 if (has_nav_menu('primary_navigation')) :
