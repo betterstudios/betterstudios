@@ -1,6 +1,6 @@
-                <header class="post-header">
+                <header class="404-header">
                         <!-- slider animation -->
-                        <ul class="keyframe-post-fader">
+                        <ul class="keyframe-404-fader">
                                 <li></li>
                                 <li></li>
                                 <li></li>
