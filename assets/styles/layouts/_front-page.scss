@@ -3,41 +3,6 @@
 -----------------------------------------------  */
 
 .front-page-header {
-        position: relative;
-        display: table;
-        width: 100%;
-        margin: 0 auto;
-	padding: 2em 0;
-        @include overlay($color-dark, 0.8);
-        .v-center {
-                display: table-cell;
-                vertical-align: middle;
-                position: relative;
-                z-index: 4;
-                padding: 0 5%;
-                h1 { @include animation(fade-in ease-in-out 2s 0.5s both); }
-                h2 { @include animation(fade-in ease-in-out 2.4s 0.1s both); }
-        }
-	h1 {
-		font-family: Open Sans, Helvetica Neue, Arial, sans-serif;
-		font-weight: 700;
-		font-size: 65px;
-		text-transform: uppercase;
-	        text-align: center;
-        	color: $color-light;
-	}
-	h3 {
-		font-weight: 900;
-		text-transform: lowercase;
-        	color: $color-orange;
-	}
-	h4 {
-		text-transform: uppercase;
-	}
-        p {
-                font-size: 120%;
-                @include animation(fade-in ease-in-out 2s 1s both);
-        }
         img {
                 transition: all ease-out 4s;
                 width: 78px;
@@ -46,30 +11,5 @@
         }
         img:hover {
                 transform: rotate(-90deg);
-        }
-        ul.keyframe-front-page-fader {
-                li {
-                        @include bg-abs;
-                        opacity: 0;
-                        @include animation(fade-out 9s infinite both);
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/teachers-header.jpg);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-suassuna-blurry-2000px.png);
-                        }
-                }
-                li:nth-child(2) {
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-calango-atabaque-800x1200px.jpeg);
-                        @include animation-delay(6s);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/omizumba-header.jpg);
-                        }
-                }
-                li:nth-child(3) {
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-berinjela-berimbau.jpg);
-                        @include animation-delay(3s);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-desafio2016-2000x1300px.jpeg);
-                        }
-                }
         }
 }
