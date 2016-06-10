@@ -18,6 +18,7 @@ a {
         position: relative;
         display: table;
         width: 100%;
+        min-height: 20vh;
         margin: 0 auto;
 	padding: 2em 0;
         @include overlay($color-dark, 0.8);
