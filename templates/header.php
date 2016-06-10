@@ -10,7 +10,7 @@
                                         <img class="scroll-down" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
                                 </a>
                                 <h1><?php bloginfo('name'); ?></h1>
-                                <h3 class="wow zoomIn" data-wow-delay="2s"><?php bloginfo('name'); ?></h3>
+                                <h3 class="wow zoomIn" data-wow-delay="2s"><?php bloginfo('description'); ?></h3>
                                 <nav class="nav-primary">
                                         <?php
                                                 if (has_nav_menu('primary_navigation')) :
