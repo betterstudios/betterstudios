@@ -9,16 +9,10 @@
 .404 {
 	margin: 4em;
 }
-article {
-	h2 {
+.entry-title {
+	h2, a {
 		font-family: 'Yanoner Kaffeesatz';
 		font-weight: 100;
-		text-transform: lowercase;
-		color: $color-orange;
-	}
-	h3 {
-		font-family: 'Yanoner Kaffeesatz';
-		font-weight: 900;
 		text-transform: lowercase;
 		color: $color-orange;
 	}
