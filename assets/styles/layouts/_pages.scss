@@ -1,6 +1,15 @@
 .content-header {
 	h1 {
 		font-family: 'Six Caps';
+                font-weight: 900;
+                text-transform: lowercase;
+                color: $color-orange;
+	}
+	h3 {
+                font-family: 'Yanoner Kaffeesatz';
+                font-weight: 900;
+                text-transform: lowercase;
+                color: $color-orange;
 	}
 }
 .404 {
