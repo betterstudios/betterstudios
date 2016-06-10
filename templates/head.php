@@ -21,6 +21,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
 
 	<!-- FAVICON.ICO -->
 	<link rel="shortcut icon" href="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/favicons/favicon.ico" />
