@@ -9,15 +9,17 @@
 .404 {
 	margin: 4em;
 }
-h2 {
-	font-family: 'Yanoner Kaffeesatz';
-	font-weight: 100;
-	text-transform: lowercase;
-	color: $color-orange;
-}
-h3 {
-	font-family: 'Yanoner Kaffeesatz';
-	font-weight: 900;
-	text-transform: lowercase;
-	color: $color-orange;
+article {
+	h2 {
+		font-family: 'Yanoner Kaffeesatz';
+		font-weight: 100;
+		text-transform: lowercase;
+		color: $color-orange;
+	}
+	h3 {
+		font-family: 'Yanoner Kaffeesatz';
+		font-weight: 900;
+		text-transform: lowercase;
+		color: $color-orange;
+	}
 }
