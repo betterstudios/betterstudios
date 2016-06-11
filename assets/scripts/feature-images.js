@@ -10,7 +10,7 @@
 $('.button').click(function(){
   // Handler for .load() called.
   var images = $('#featured-image').attr('src');
-  alert("the button was clicked images");      
+  $('head').append('<meta property="og:image" content="' + images + '" />');      
 });
 
 })(jQuery); // End of use strict
