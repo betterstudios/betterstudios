@@ -1,6 +1,6 @@
                <header class="header">
                         <!-- slider animation -->
-                        <ul class="keyframe-fader">
+                        <ul id="header-background" class="keyframe-fader">
                                 <li></li>
                                 <li></li>
                                 <li></li>
