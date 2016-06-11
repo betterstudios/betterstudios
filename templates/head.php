@@ -24,7 +24,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
 
 	<!-- FAVICON.ICO -->
-	<link rel="shortcut icon" href="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/favicons/favicon.ico" />
+	<link rel="shortcut icon" href="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-alpha-icon-600x600px.png" />
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
