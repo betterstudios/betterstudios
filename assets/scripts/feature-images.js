@@ -13,6 +13,10 @@ $('.button').click(function(){
   $('head').append('<meta property="og:image" content="' + images + '" />');      
 });
 
+$("#myImg").load(function() {
+  alert('I loaded!');
+}).attr('src', 'myImage.jpg');
+
 $( "img" ).load(function() {
   if ( $( this ).height() > 100) {
     $( this ).addClass( "bigImg" );
