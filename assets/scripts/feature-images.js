@@ -7,7 +7,7 @@
 
     // jQuery for the slideshow in the header section.
 
-$( "#featured-image" ).load(function() {
+$('.button').click(function(){
   // Handler for .load() called.
   var images = $('#featured-image').attr('src');
   alert(images);      
