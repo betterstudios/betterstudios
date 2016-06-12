@@ -8,8 +8,10 @@
 		padding: 15px 0;
 		border: 1px solid $color-grey;
 		text-align: center;
-		.widget_search {
-			boder: none;
+		.widget{
+			.widget_search {
+				border: none;
+			}
 		}
 	}
 }
