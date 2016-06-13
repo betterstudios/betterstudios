@@ -33,6 +33,11 @@
         "scripts/vegas.js"
       ]
     },
+    "remove-search-border.js": {
+      "files": [
+        "scripts/remove-search-border.js"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     }
