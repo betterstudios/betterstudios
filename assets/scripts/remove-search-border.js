@@ -5,6 +5,6 @@
 
 (function() {
 
-document.querySelector("aside.sidebar.section").style.color = "blue";
+document.querySelector(".sidebar").style.color = "blue";
 
 }) ();
