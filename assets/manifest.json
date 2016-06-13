@@ -13,24 +13,9 @@
       ],
       "main": true
     },
-    "creative.css": {
-      "files": [
-        "styles/creative.css"
-      ]
-    },
-    "custom.css": {
-      "files": [
-        "styles/custom.css"
-      ]
-    },
     "customizer.js": {
       "files": [
         "scripts/customizer.js"
-      ]
-    },
-    "vegas.js": {
-      "files": [
-        "scripts/vegas.js"
       ]
     },
     "jquery.js": {
