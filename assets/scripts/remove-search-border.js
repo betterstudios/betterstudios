@@ -5,6 +5,6 @@
 
 (function() {
 
-document.querySelector(".widget").style.borderStyle = "none";
+document.querySelector("aside.sidebar.section").style.borderStyle = "none";
 
 }) ();
