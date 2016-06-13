@@ -84,6 +84,7 @@ function display_sidebar() {
     // The sidebar will NOT be displayed if ANY of the following return true.
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
+    is_search(),
     is_front_page(),
     is_page_template('template-custom.php'),
   ]);
@@ -105,6 +106,5 @@ function assets() {
 
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
   wp_enqueue_script('vegas/js', Assets\asset_path('scripts/vegas.js'), ['sage/js'], null, true);
-  wp_enqueue_script('remove-search-border/js', Assets\asset_path('scripts/remove-search-border.js'), ['sage/js'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
