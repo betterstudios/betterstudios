@@ -6,8 +6,10 @@
 	section {
 		margin: 15px 0;
 		padding: 15px 0;
-		border: 1px solid $color-grey;
 		text-align: center;
+		.widget {
+			border: 1px solid $color-grey;
+		}
 		.widget_search {
 			border: none;
 		}
