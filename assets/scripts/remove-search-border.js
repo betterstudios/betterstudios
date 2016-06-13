@@ -1,9 +1,10 @@
 /*!
  * Remove Border Javascript
+ * 	with a self-invoking anonymous function!
  */
 
-window.onload = function() {
+(function() {
 
-document.getElementsByClassName("widget_search").style.border = "none";
+document.getElementsByClassName("widget_search").style.borderStyle = "none";
 
-};
+});
