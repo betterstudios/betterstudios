@@ -5,6 +5,6 @@
 
 (function() {
 
-document.getElementsByClassName(".widget_search").style.borderStyle = "none";
+document.querySelector(".widget").style.borderStyle = "none";
 
 }) ();
