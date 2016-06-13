@@ -7,4 +7,4 @@
 
 document.getElementsByClassName("widget_search").style.borderStyle = "none";
 
-});
+}) ();
