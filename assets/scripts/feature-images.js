@@ -2,8 +2,12 @@
  * Feature Images
  */
 
-(function(){
-	var imageUrl = document.querySelector('#featured-image').src;
-	document.querySelector('#header-background').innerHTML = '<ul><li></li></ul>';
-	document.querySelector('#header-background.ul.li').style.backgroundImage = 'url(' + imageUrl + ')';
-})();
+(function($) {
+	"use strict"; // Start of use strict
+
+	// jQuery for the slideshow in the header section.
+	var imgSrc = $('#featured-image').attr('src');
+	$('.header-background').html('<ul><li></li></ul>');
+	$('.header-background').css('background-image', 'url(' + imgSrc  + ')');
+
+})(jQuery); // End of use strict
