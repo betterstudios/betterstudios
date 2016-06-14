@@ -4,6 +4,7 @@
 
 (function(){
 	var imageUrl = document.querySelector('img').src;
-	document.getElementById('keyframe-post-fader').innerHTML = '<li></li>';
-	document.querySelector('keyframe-post-fader.ul.li').style.backgroundImage = 'url(' + imageUrl + ')';
+	document.getElementById('header-background').innerHTML = '<ul><li></li></ul>';
+	document.querySelector('#header-background').innerHTML = '<ul><li></li></ul>';
+	document.querySelector('#header-background.ul.li').style.backgroundImage = 'url(' + imageUrl + ')';
 })();
