@@ -2,15 +2,8 @@
  * Feature Images
  */
 
-(function($) {
-    "use strict"; // Start of use strict
-
-    // jQuery for the slideshow in the header section.
-
-$( "img" ).load(function() {
-  if ( $( this ).height() > 100) {
-    $( this ).addClass( "bigImg" );
-  }
-});
-
-})(jQuery); // End of use strict
+(function(){
+	var imageUrl = document.querySelector('img').src;
+	document.getElementById('header-background').innerHTML = '<li></li>';
+	document.querySelector('header-background.ul.li').style.backgroundImage = 'url(' + imageUrl + ')';
+})();
