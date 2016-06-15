@@ -18,5 +18,6 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/footer');
       wp_footer();
     ?>
+    <?php get_template_part('templates/postscript'); ?>
   </body>
 </html>
