@@ -7,16 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 
-	<!-- Twitter Card data -->
-	<meta name="twitter:card" value="summary">
-
-	<!-- Open Graph data -->
-	<meta property="og:title" content="The Capoeira Studio" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/ogimage.jpg" />
-	<meta property="og:url" content="http://www.capoeirastudio.com/" />
-	<meta property="og:description" content="The community of teachers and students at the Capoeira Studio are focused on improving strength, flexibility, agility, balance, concentration, rhythm, and quality of life through the creative and beautiful movement of the Afro-Brazilian art form called Capoeira." />
-
 	<!-- Custom Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
