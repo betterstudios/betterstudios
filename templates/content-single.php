@@ -22,7 +22,7 @@ while (have_posts()) : the_post(); ?>
 	<article <?php post_class(); ?>>
 		<header class="post-header">
 		        <!-- slider animation -->
-		        <ul class="keyframe-post-fader">
+		        <ul id="backgrounds" class="keyframe-post-fader">
 		                <li></li>
 		                <li></li>
 		                <li></li>

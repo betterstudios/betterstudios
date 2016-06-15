@@ -5,7 +5,7 @@
 	var imgUrl = document.getElementById("featured-image").src;
 
 	// remove the child nodes 0, 1 and 2
-	var list = document.getElementById("keyframe-post-fader"); 
+	var list = document.getElementById("backgrounds"); 
 	list.removeChild(list.childNodes[0]);
 	list.removeChild(list.childNodes[1]);
 	list.removeChild(list.childNodes[2]);
