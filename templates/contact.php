@@ -1,6 +1,6 @@
 <section id="contact">
 	<div class="container">
-		<div class="row">
+		<div class="row wow fadeIn" data-wow-delay="0.5s">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<h2 class="section-heading">문의사항 <br>Let's Get In Touch!</h2>
 				<hr class="primary">
@@ -22,11 +22,6 @@
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<hr class="primary">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6325.436276912393!2d126.978851!3d37.561704!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f3864681b9%3A0xf3bd15bab5778767!2s93-3+Bukchang-dong%2C+Jung-gu%2C+Seoul%2C+South+Korea!5e0!3m2!1sen!2s!4v1439365275417" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-			<div class="col-lg-8 col-lg-offset-2 text-center">
-                                <hr class="light">
-				<hr class="primary">
-                                <a href="/madeira-boa/" class="btn btn-primary btn-xl wow bounceIn" data-wow-delay=".1s">블로그<br>Blog</a>
 			</div>
 		</div>
 	</div>
