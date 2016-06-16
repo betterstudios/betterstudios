@@ -9,7 +9,12 @@
         <div class="v-center">
 		<div class="row">
 	                <div class="col-md-3">
-				<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
+	                        <h2 class="wow bounceIn" data-wow-delay=".1s">MENU</h2>
+	                        <p><a href="<?php echo get_site_url(); ?>/#about" class="page-scroll">About</a></p>
+	                        <p><a href="<?php echo get_site_url(); ?>/#classes" class="page-scroll">Classes</a></p>
+	                        <p><a href="<?php echo get_site_url(); ?>/#teachers" class="page-scroll">Teachers</a></p>
+	                        <p><a href="<?php echo get_site_url(); ?>/#pricing" class="page-scroll">Pricing</a></p>
+	                        <p><a href="<?php echo get_site_url(); ?>/#contact" class="page-scroll">Contact</a></p>
 	                </div>
 	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">RECENT POSTS</h2>
