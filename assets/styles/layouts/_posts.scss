@@ -59,7 +59,7 @@
                         }
                 }
                 li:nth-child(2) {
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-calango-atabaque-800x1200px.jpeg);
+                        background-image: $chicote-and-xango-800x1200px;
                         @include animation-delay(6s);
                         @media (min-width: $mq-med) {
                                 background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/omizumba-header.jpg);
@@ -69,7 +69,7 @@
                         background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-berinjela-berimbau.jpg);
                         @include animation-delay(3s);
                         @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-desafio2016-2000x1300px.jpeg);
+                                background-image: $zumbi-freeze-2000x1350px;
                         }
                 }
         }

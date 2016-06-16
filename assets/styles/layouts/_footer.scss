@@ -80,7 +80,7 @@
                         background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-calango-atabaque-800x1200px.jpeg);
                         @include animation-delay(18s);
                         @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-desafio2016-2000x1300px.jpeg);
+                                background-image: $zumba-freeze-2000x1350px;
                         }
                 }
                 li:nth-child(3) {
