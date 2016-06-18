@@ -6,10 +6,12 @@
                 color: $color-dark;
 	}
 }
-.bg-orange {
-	background-color: $color-orange;
+.front-page {
+	.btn-default {
+		background-color: $color-orange;
+	}
 }
-.blog {
+.blog-secction {
 	margin-bottom: 4em;
 }
 .primary {

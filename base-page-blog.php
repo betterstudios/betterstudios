@@ -18,7 +18,7 @@ use Roots\Sage\Wrapper;
 		do_action('get_header');
 		get_template_part('templates/header');
 	?>
-	<section id="blog" class="blog">
+	<section id="blog" class="blog-section">
         	<div class="container" role="document">
                 	<div class="row">
 	        		<main class="main">
