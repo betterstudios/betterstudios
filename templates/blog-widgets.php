@@ -1,13 +1,13 @@
 <section id="blog-widgets" class="blog-widgets-section">
 	<div class="container-fluid">
 		<div class="row">
-	                <div class="col-sm-4">
+	                <div class="col-sm-4 center">
 	                        <?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
 	                </div>
-	                <div class="col-sm-4">
+	                <div class="col-sm-4 center">
 	                        <?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
 	                </div>
-	                <div class="col-sm-4">
+	                <div class="col-sm-4 center">
 	                        <?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
 	                </div>
 		</div>
