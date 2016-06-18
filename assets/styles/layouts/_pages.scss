@@ -32,19 +32,6 @@
 	padding: 50px 0;
 	text-align: center;
 	color: $color-light;
-        .btn {
-            border: 0;
-            border-radius: 300px;
-            text-transform: uppercase;
-            font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-            font-weight: 700;
-        }
-        .btn-xl {
-            padding: 15px 30px;
-        }
-	.btn-default {
-		background-color: $color-orange;
-	}
 	h2 {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
@@ -88,12 +75,27 @@
 .blog-contributors-section {
 	padding: 50px 0;
 	color: $color-dark;
-	.front-page {
-		.btn {
-			background-color: $color-orange;
-			border-color: $color-orange;
-		}
+        .btn {
+            border: 0;
+            border-radius: 300px;
+            text-transform: uppercase;
+            font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+            font-weight: 700;
+        }
+        .btn-xl {
+            padding: 15px 30px;
+        }
+	.btn-default {
+		background-color: $color-orange;
 	}
+	p {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 1.5em;
+		font-weight: 100;
+                text-transform: uppercase;
+                text-decoration: none;
+		color: $color-grey;
+        }
 }
 .entry-title {
 	h2, a {
