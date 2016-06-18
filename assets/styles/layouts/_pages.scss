@@ -11,25 +11,27 @@
 }
 .blog-widgets-section {
 	background-color: #ff9900;
+	padding: 50px;
 	h2 {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
 		font-weight: 700;
                 text-transform: lowercase;
-                text-shadow: 1px 1px 1px, rgba(255,255,255,0.3);
+                text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
 		color: $color-dark;
         }
-	h2 {
+	p {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
 		font-weight: 200;
                 text-transform: uppercase;
-                text-shadow: 1px 1px 1px, rgba(255,255,255,0.3);
+                text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
 		color: $color-light;
         }
-	.center {
-		margin: 0 auto;
-		text-align: left;
+	ul {
+		list-style: none;
+		float: right;
+		margin-right: 50%;
 	}
 }
 .entry-title {
