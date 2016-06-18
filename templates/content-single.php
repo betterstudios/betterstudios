@@ -32,9 +32,9 @@ while (have_posts()) : the_post(); ?>
 		                        <img class="wow rotateInUpRight" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
 		                </a>
 		                <h1 class="wow slideInRight"><?php bloginfo('name'); ?></h1>
-				<hr class="primary front-page wow pulse" data-wow-delay="1s">
+				<hr class="primary front-page wow pulse" data-wow-delay="3s">
 		      		<h4 class="entry-title"><?php the_title(); ?></h4>
-		      		<h3 class="wow zoomIn" data-wow-delay="2s">Blog Entry</h3>
+		      		<h3 class="wow pulse" data-wow-delay="2s">Blog Entry</h3>
 				<?php get_template_part('templates/entry-meta'); ?>
 		                <nav class="nav-primary">
 		                        <?php
@@ -48,12 +48,12 @@ while (have_posts()) : the_post(); ?>
 		<div class="entry-content">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-sm-8 col-sm-offset-2">
 						<?php the_content(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-sm-8 col-sm-offset-2">
 			                       	<div class="postpagenav">
                               				<ul>
                                         			<?php if (is_attachment()) {
@@ -68,19 +68,19 @@ while (have_posts()) : the_post(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-sm-8 col-sm-offset-2">
 						<?php get_template_part('templates/news-share'); ?>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-sm-8 col-sm-offset-2">
                                     		<div class="author-avatar">
                                         		<?php echo get_avatar( get_the_author_meta( 'ID' ), 70 ); ?>
                                     		</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-sm-8 col-sm-offset-2">
 						<div class="author_bio">
 						        <h4>Author Biography: <span class="author-name"><?php the_author_link(); ?></span></h4>
 						        <div class="title-divider"></div>
@@ -89,7 +89,7 @@ while (have_posts()) : the_post(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-sm-8 col-sm-offset-2">
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'samba-capoeira' ), 'after' => '</div>' ) ); ?>
 						<?php posts_nav_link(); ?>
 	    					<?php comments_template('/templates/comments.php'); ?>
