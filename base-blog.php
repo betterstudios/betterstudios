@@ -24,9 +24,6 @@ use Roots\Sage\Wrapper;
 	        		<main class="main">
 	          			<?php include Wrapper\template_path(); ?>
 	        		</main><!-- /.main -->
-		          	<aside class="sidebar">
-		            		<?php include Wrapper\sidebar_path(); ?>
-		          	</aside><!-- /.sidebar -->
 			</div><!-- /.row -->
       		</div><!-- /.container -->
     	</section><!-- /.primary -->
