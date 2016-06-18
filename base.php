@@ -22,9 +22,7 @@ use Roots\Sage\Wrapper;
         	<div class="container-fluid" role="document">
                 	<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
-		        		<main class="main">
-		          			<?php include Wrapper\template_path(); ?>
-		        		</main><!-- /.main -->
+		          		<?php include Wrapper\template_path(); ?>
 				</div><!-- /.col-sm-8 -->
 			</div><!-- /.row -->
       		</div><!-- /.container -->
