@@ -73,9 +73,11 @@
 .blog-contributors-section {
 	padding: 50px 0;
 	color: $color-dark;
-	.btn {
-		background-color: $color-orange;
-		border-color: $color-orange;
+	.front-page {
+		.btn {
+			background-color: $color-orange;
+			border-color: $color-orange;
+		}
 	}
 }
 .entry-title {
