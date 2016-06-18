@@ -18,12 +18,14 @@ use Roots\Sage\Wrapper;
 		do_action('get_header');
 		get_template_part('templates/header');
 	?>
-	<section id="blog" class="blog-section">
-        	<div class="container" role="document">
+	<section id="blog" class="blog-content-section">
+        	<div class="container-fluid" role="document">
                 	<div class="row">
-	        		<main class="main">
-	          			<?php include Wrapper\template_path(); ?>
-	        		</main><!-- /.main -->
+                		<div class="col-sm-8 col-sm-offset-2">
+		        		<main class="main">
+		          			<?php include Wrapper\template_path(); ?>
+		        		</main><!-- /.main -->
+				</div><!-- /.col-sm-8 -->
 			</div><!-- /.row -->
       		</div><!-- /.container -->
     	</section><!-- /.primary -->
