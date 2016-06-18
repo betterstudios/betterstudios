@@ -18,20 +18,19 @@ use Roots\Sage\Wrapper;
 		do_action('get_header');
 		get_template_part('templates/header');
 	?>
-	<section id="primary" class="primary">
-        	<div class="container" role="document">
+	<section id="dynamic-content" class="dynamic-section">
+        	<div class="container-fluid" role="document">
                 	<div class="row">
 	        		<main class="main">
 	          			<?php include Wrapper\template_path(); ?>
 	        		</main><!-- /.main -->
-	        		<?php if (Setup\display_sidebar()) : ?>
-		          		<aside class="sidebar">
-		            			<?php include Wrapper\sidebar_path(); ?>
-		          		</aside><!-- /.sidebar -->
-	        		<?php endif; ?>
 			</div><!-- /.row -->
       		</div><!-- /.container -->
     	</section><!-- /.primary -->
+	<?php if (Setup\display_sidebar()) : ?>
+	        <?php get_template_part('templates/blog-widgets'); ?>
+	        <?php get_template_part('templates/blog-contributors'); ?>
+	<?php endif; ?>
     	<?php
 		do_action('get_footer');
 		get_template_part('templates/footer');
