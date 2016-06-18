@@ -9,7 +9,7 @@
 
 	<!-- Custom Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
 
