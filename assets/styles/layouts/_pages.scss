@@ -20,7 +20,10 @@
                 text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
 		color: $color-dark;
         }
-	p {
+	ul {
+		list-style: none;
+	}
+	li {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
 		font-weight: 200;
@@ -28,11 +31,6 @@
                 text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
 		color: $color-light;
         }
-	ul {
-		list-style: none;
-		float: right;
-		margin-right: 50%;
-	}
 }
 .entry-title {
 	h2, a {
