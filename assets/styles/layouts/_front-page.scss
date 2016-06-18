@@ -2,17 +2,7 @@
 --Front Page Styling
 -----------------------------------------------  */
 
-.front-page-header {
-        img {
-                transition: all ease-out 4s;
-                width: 78px;
-                border: 1px solid white;
-                border-radius: 40px;
-        }
-        img:hover {
-                transform: rotate(-90deg);
-        }
-
+.front-page {
 	/*!
 	 * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
 	 * Code licensed under the Apache License v2.0.
@@ -490,5 +480,17 @@
 	
 	body {
 	    webkit-tap-highlight-color: #222;
+	}
+
+	.front-page-header {
+	        img {
+	                transition: all ease-out 4s;
+	                width: 78px;
+	                border: 1px solid white;
+	                border-radius: 40px;
+	        }
+	        img:hover {
+	                transform: rotate(-90deg);
+	        }
 	}
 }
