@@ -12,6 +12,7 @@
 .blog-widgets-section {
 	background-color: #ff9900;
 	padding: 50px;
+	color: $color-light;
 	contributor-row {
 		margin: 0 auto 25px auto;
 	}
@@ -46,6 +47,9 @@
 			}
 	        }
 	}
+}
+.blog-widgets-section {
+	color: $color-dark;
 }
 .entry-title {
 	h2, a {
