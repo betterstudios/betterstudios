@@ -1,4 +1,4 @@
-<section id="blog-contributors" class="blog-contributors-section">
+<section id="blog-contributors" class="blog-contributors-section front-page">
 	<div class="container-fluid">
 		<div id="contributor-row" class="row">
 			<div class="col-sm-8 col-lg-offset-2 text-center">
