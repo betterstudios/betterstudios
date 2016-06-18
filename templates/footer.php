@@ -10,11 +10,8 @@
 		<div class="row">
 	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">MENU</h2>
-	                        <p><a href="<?php echo get_site_url(); ?>/#about" class="page-scroll">About</a></p>
-	                        <p><a href="<?php echo get_site_url(); ?>/#classes" class="page-scroll">Classes</a></p>
-	                        <p><a href="<?php echo get_site_url(); ?>/#teachers" class="page-scroll">Teachers</a></p>
-	                        <p><a href="<?php echo get_site_url(); ?>/#pricing" class="page-scroll">Pricing</a></p>
-	                        <p><a href="<?php echo get_site_url(); ?>/#contact" class="page-scroll">Contact</a></p>
+	                        <p><a href="<?php echo get_site_url(); ?>/blog">Blog</a></p>
+	                        <p><a href="<?php echo get_site_url(); ?>/faq">FAQ</a></p>
 	                </div>
 	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">RECENT POSTS</h2>
@@ -36,11 +33,11 @@
 	                </div>
 	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">REGISTRATION</h2>
-				<p>킬롬볼라 레크리에이션</p>
-				<p>서울특별시중구북창동93-3삼옥빌딩303호</p>
-				<p>휴대폰 번호 : 010-9090-9183</p>
-				<p>사업자 등록 번호 : 101-11-14837</p>
-				<p>대표자: Munair Simpson</p>
+				<p class="korean">킬롬볼라 레크리에이션</p>
+				<p class="korean">서울특별시중구북창동93-3삼옥빌딩303호</p>
+				<p class="korean">휴대폰 번호 : 010-9090-9183</p>
+				<p class="korean">사업자 등록 번호 : 101-11-14837</p>
+				<p><span class="korean">대표자:</span> Munair Simpson</p>
 	                </div>
                 </div>
 		<div class="row">

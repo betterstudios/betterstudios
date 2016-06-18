@@ -15,8 +15,8 @@
         font-size: 13px;
         font-weight: 100;
         font-style: normal;
-        line-height: 1.1em;
-        letter-spacing: -0.02em;
+        line-height: 1.9em;
+        letter-spacing: 0.05em;
 	@include overlay($color-dark, 0.9);
 	.v-center {
 		display: table-cell;
@@ -24,6 +24,15 @@
 		position: relative;
 		z-index: 4;
 		padding: 0 5%;
+		.korean {
+        		letter-spacing: -0.02em;
+		}
+		.row {
+			padding: 1em 0;
+			.col-md-3 {
+				padding: 1em 0;
+			}
+		}
 		h1 {
 			@include animation(fade-in ease-in-out 2s 0.5s both);
 		}
@@ -33,12 +42,6 @@
 		}
 		img:hover {
 			transform: scale(1.1);
-		}
-		.row {
-			padding: 1em 0;
-			.col-md-3 {
-				padding: 1em 0;
-			}
 		}
 		#ebs-footer-logo {
 			width: 38px;
