@@ -18,8 +18,8 @@ use Roots\Sage\Wrapper;
 		do_action('get_header');
 		get_template_part('templates/header');
 	?>
-	<section id="primary" class="primary">
-        	<div class="container" role="document">
+	<section id="dynamic-content" class="dynamic-section">
+        	<div class="container-fluid" role="document">
                 	<div class="row">
 	        		<main class="main">
 	          			<?php include Wrapper\template_path(); ?>

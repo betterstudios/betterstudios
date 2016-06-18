@@ -88,6 +88,11 @@
 	.btn-default {
 		background-color: $color-orange;
 	}
+        hr {
+            max-width: 50px;
+            border-color: #ff9900;
+            border-width: 3px;
+        }
 	p {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
