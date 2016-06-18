@@ -9,6 +9,16 @@
 .primary {
 	margin-bottom: 4em;
 }
+.main {
+	p {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 1.5em;
+		font-weight: 100;
+                text-transform: uppercase;
+                text-decoration: none;
+		color: $color-grey;
+        }
+}
 .blog-widgets-section {
 	background-color: #ff9900;
 	padding: 50px 0;
