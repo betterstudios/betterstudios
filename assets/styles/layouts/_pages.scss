@@ -12,6 +12,7 @@
 .blog-widgets-section {
 	background-color: #ff9900;
 	padding: 50px 0;
+	text-align: center;
 	color: $color-light;
 	h2 {
                 font-family: 'Yanone Kaffeesatz';
@@ -24,7 +25,6 @@
 	ul {
 		margin: 0;
 		padding: 0;
-		text-align: center;
 		list-style: none;
 		list-style-type: none;
 		li {
