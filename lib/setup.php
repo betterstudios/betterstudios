@@ -98,7 +98,6 @@ function display_sidebar() {
  */
 function assets() {
   wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
-  wp_enqueue_style('creative/css', Assets\asset_path('styles/creative.css'), false, null);
   wp_enqueue_style('custom/css', Assets\asset_path('styles/custom.css'), false, null);
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
