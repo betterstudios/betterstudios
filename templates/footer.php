@@ -45,7 +45,7 @@
                         <div class="col-md-4 col-md-offset-4 text-center">
                                 <img src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-white-icon-644x644px.png" class="wow bounceIn text-primary" data-wow-delay=".1s" style="visibility: visible; animation-name: bounceIn; -webkit-animation-name: bounceIn;">
                                 <h5 id="featured-video-heading" class="section-heading">As featured on...</h5>
-                                <hr id="featured-hr" class="primary front-page">
+                                <hr id="featured-hr">
                                 <a href="http://home.ebs.co.kr/ebsnews/menu3/newsGlobalView/10344369/H" target="_new">
                                 <img id="ebs-footer-logo" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/simple-ebs-logo-45x33px-embossed.png" class="wow bounceIn text-primary" data-wow-delay=".1s" style="visibility: visible; animation-name: bounceIn; -webkit-animation-name: bounceIn;">
                                 </a>
