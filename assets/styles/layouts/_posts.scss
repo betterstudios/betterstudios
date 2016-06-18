@@ -41,9 +41,11 @@
 		text-transform: uppercase;
 	}
         hr {
-            max-width: 50px;
-            border-color: #ff9900;
-            border-width: 3px;
+		position: relative;
+		margin-right: 0;
+		max-width: 4em;
+		border-color: $color-orange;
+		border-width: 3px;
         }
         p {
                 font-size: 120%;
