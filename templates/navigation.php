@@ -18,7 +18,7 @@
                     		<li> <a class="page-scroll" href="#teachers">강사 Teachers</a> </li>
                     		<li> <a class="page-scroll" href="#pricing">회비 Pricing</a> </li>
                     		<li> <a class="page-scroll" href="#contact">문의 Contact</a> </li>
-                    		<li> <a class="page-scroll" href="/madeira-boa/">블로그 Blog</a> </li>
+                    		<li> <a class="page-scroll" href="/blog/">블로그 Blog</a> </li>
                 	</ul>
             	</div>
             	<!-- /.navbar-collapse -->
