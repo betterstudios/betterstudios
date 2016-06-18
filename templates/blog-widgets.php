@@ -2,13 +2,13 @@
 	<div class="container-fluid">
 		<div class="row">
 	                <div class="col-sm-3 col-sm-offset-1">
-	                        <?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
+	                        <?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?>
 	                </div>
 	                <div class="col-sm-3 col-sm-offset-1">
 	                        <?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
 	                </div>
 	                <div class="col-sm-3 col-sm-offset-1">
-	                        <?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
+	                        <?php the_widget( 'WP_Widget_Calendar', $instance, $args ); ?>
 	                </div>
 		</div>
 		<div class="row">
