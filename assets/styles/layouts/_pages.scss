@@ -7,11 +7,6 @@
 	}
 }
 .primary {
-	position: relative;
-	display: block;
-	width: 150px;
-	float: right;
-	margin-bottom: 4em;
 	hr {
             max-width: 50px;
             border-color: #ff9900;
@@ -77,11 +72,9 @@
 .blog-contributors-section {
 	padding: 50px 0;
 	color: $color-dark;
-	.text-faded {
-            	color: rgba(255,255,255,.7);
-        }
-	btn {
+	.btn {
 		background-color: $color-orange;
+		border-color: $color-orange;
 	}
 }
 .entry-title {
