@@ -9,10 +9,12 @@
 
 <?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-<?php endwhile; ?>
 
 <div class="container-fluid">
 	<div class="row">
+		<div class="col-sm-4">
+			<?php the_widget( 'WP_Widget_Links', $instance, $args ); ?> 
+		</div>
 		<div class="col-sm-4">
 			<?php get_calendar(); ?>
 		</div>
@@ -36,5 +38,7 @@
 		</div>
 	</div>
 </div>
+
+<?php endwhile; ?>
 
 <?php the_posts_navigation(); ?>
