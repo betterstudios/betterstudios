@@ -11,11 +11,8 @@
 }
 .blog-widgets-section {
 	background-color: #ff9900;
-	padding: 50px;
+	padding: 50px 0;
 	color: $color-light;
-	contributor-row {
-		margin: 0 auto 25px auto;
-	}
 	h2 {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
@@ -27,6 +24,7 @@
 	ul {
 		margin: 0;
 		padding: 0;
+		text-align: center;
 		list-style: none;
 		list-style-type: none;
 		li {
