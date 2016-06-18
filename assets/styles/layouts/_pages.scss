@@ -12,6 +12,9 @@
 .blog-widgets-section {
 	background-color: #ff9900;
 	padding: 50px;
+	contributor-row {
+		margin: 0 auto 25px auto;
+	}
 	h2 {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
@@ -21,23 +24,23 @@
 		color: $color-dark;
         }
 	ul {
+		margin: 0;
 		padding: 0;
 		list-style: none;
 		list-style-type: none;
+		li {
+	                font-family: 'Yanone Kaffeesatz';
+	                font-size: 1.5em;
+			font-weight: 200;
+	                text-transform: uppercase;
+	                text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+			color: $color-light;
+			a {
+				inherit;
+	                	text-decoration: none;
+			}
+	        }
 	}
-	li {
-                font-family: 'Yanone Kaffeesatz';
-                font-size: 1.5em;
-		font-weight: 200;
-                text-transform: uppercase;
-                text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
-		color: $color-light;
-		a {
-			inherit;
-                	text-decoration: none;
-		}
-        }
-}
 .entry-title {
 	h2, a {
 		font-family: 'Yanoner Kaffeesatz';

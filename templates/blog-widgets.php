@@ -1,17 +1,23 @@
 <section id="blog-widgets" class="blog-widgets-section">
 	<div class="container-fluid">
-		<div class="row">
-	                <div class="col-sm-3 col-sm-offset-1">
+		<div id="widget-row" class="row">
+	                <div class="col-sm-2 col-sm-offset-1">
+	                        <?php the_widget( 'WP_Widget_Recent_Posts', $instance, $args ); ?>
+	                </div>
+	                <div class="col-sm-2">
+	                        <?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?>
+	                </div>
+	                <div class="col-sm-2">
 	                        <?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?>
 	                </div>
-	                <div class="col-sm-3 col-sm-offset-1">
+	                <div class="col-sm-2">
 	                        <?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
 	                </div>
-	                <div class="col-sm-3 col-sm-offset-1">
+	                <div class="col-sm-2">
 	                        <?php the_widget( 'WP_Widget_Calendar', $instance, $args ); ?>
 	                </div>
 		</div>
-		<div class="row">
+		<div id="contributor-row" class="row">
 			<div class="col-sm-8 col-lg-offset-2 text-center">
 				<p class="text-faded">This blog is maintained by the students and teachers at the Capoeira Studio. Are you actively posting content in our Facebook Group? Do you enjoy researching and sharing Capoeira knowledge? Then apply to be a contributor.</p>
 				<hr class="light">
