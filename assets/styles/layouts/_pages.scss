@@ -21,15 +21,21 @@
 		color: $color-dark;
         }
 	ul {
+		padding: 0;
 		list-style: none;
+		list-style-type: none;
 	}
-	li, li.a {
+	li {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
 		font-weight: 200;
                 text-transform: uppercase;
                 text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
 		color: $color-light;
+		a {
+			inherit;
+                	text-decoration: none;
+		}
         }
 }
 .entry-title {
