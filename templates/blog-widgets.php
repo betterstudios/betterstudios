@@ -11,7 +11,7 @@
 	                        <?php the_widget( 'WP_Widget_Recent_Posts', $instance, $args ); ?>
 	                </div>
 	                <div class="col-sm-2">
-	                        <?php the_widget( 'WP_Widget_Calendar', $instance, $args ); ?>
+	                        <?php the_widget( 'WP_Widget_Links', $instance, $args ); ?>
 	                </div>
 	                <div class="col-sm-2">
 	                        <?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?>
