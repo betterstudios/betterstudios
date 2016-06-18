@@ -8,7 +8,11 @@
         width: 100%;
         margin: 0 auto;
 	padding: 2em 0;
+	font-family: 'Yanone Kaffeesatz';
+	font-size: 1em;
+	text-transform: lowercase;
 	text-align: right;
+        color: $color-light;
         @include overlay($color-dark, 0.8);
         .v-center {
                 display: table-cell;
@@ -22,12 +26,14 @@
 	h1 {
 		font-family: Sonsie One, cursive;
 		font-weight: 700;
+		font-size: 1em;
 		text-transform: uppercase;
         	color: $color-light;
 	}
 	h3 {
 		font-family: 'Yanone Kaffeesatz';
 		font-weight: 900;
+		font-size: 1em;
 		text-transform: uppercase;
         	color: $color-orange;
 	}

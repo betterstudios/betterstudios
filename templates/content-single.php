@@ -31,9 +31,10 @@ while (have_posts()) : the_post(); ?>
 		                <a onmousedown="tick()" onmouseover="pop()" href="<?= esc_url(home_url('/')); ?>">
 		                        <img class="scroll-down" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
 		                </a>
-		                <h1><?php bloginfo('name'); ?></h1>
-		      		<h3 class="wow zoomIn" data-wow-delay="2s">Blog Entry</h3>
+		                <h1 class="wow slideInRight"><?php bloginfo('name'); ?></h1>
+				<hr class="front-page wow pulse" data-wow-delay="1s">
 		      		<h4 class="entry-title"><?php the_title(); ?></h4>
+		      		<h3 class="wow zoomIn" data-wow-delay="2s">Blog Entry</h3>
 				<?php get_template_part('templates/entry-meta'); ?>
 		                <nav class="nav-primary">
 		                        <?php
