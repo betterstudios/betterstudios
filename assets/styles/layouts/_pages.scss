@@ -22,6 +22,14 @@
                 text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
 		color: $color-dark;
         }
+	p {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 1.5em;
+		font-weight: 100;
+                text-transform: uppercase;
+                text-decoration: none;
+		color: $color-grey;
+        }
 	ul {
 		margin: 0;
 		padding: 0;
