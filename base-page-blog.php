@@ -32,7 +32,7 @@ use Roots\Sage\Wrapper;
 			</div><!-- /.row -->
       		</div><!-- /.container -->
     	</section><!-- /.primary -->
-	<?php get_template_part('templates/introduction'); ?>
+	<?php get_template_part('templates/blog-widgets'); ?>
     	<?php
 		do_action('get_footer');
 		get_template_part('templates/footer');

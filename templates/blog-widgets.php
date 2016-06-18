@@ -2,13 +2,13 @@
 	<div class="container-fluid">
 	        <div class="row">
 	                <div class="col-sm-4">
-	                        <h1>hi</h1><?php the_widget( 'WP_Widget_Links', $instance, $args ); ?>
+	                        <?php the_widget( 'WP_Widget_Links', $instance, $args ); ?>
 	                </div>
 	                <div class="col-sm-4">
-	                        <h1>hi</h1><?php get_calendar(); ?>
+	                        <?php get_calendar(); ?>
 	                </div>
 	                <div class="col-sm-4">
-	                        <h1>hi</h1><?php $args = array(
+	                        <?php $args = array(
 	                            'numberposts' => 10,
 	                            'offset' => 0,
 	                            'category' => 0,
