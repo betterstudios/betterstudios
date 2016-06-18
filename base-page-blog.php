@@ -18,10 +18,10 @@ use Roots\Sage\Wrapper;
 		do_action('get_header');
 		get_template_part('templates/header');
 	?>
-	<section id="blog" class="blog-content-section">
+	<section id="dynamic-content" class="dynamic-section">
         	<div class="container-fluid" role="document">
                 	<div class="row">
-                		<div class="col-sm-8 col-sm-offset-2">
+				<div class="col-sm-8 col-sm-offset-2">
 		        		<main class="main">
 		          			<?php include Wrapper\template_path(); ?>
 		        		</main><!-- /.main -->
@@ -29,8 +29,10 @@ use Roots\Sage\Wrapper;
 			</div><!-- /.row -->
       		</div><!-- /.container -->
     	</section><!-- /.primary -->
-	<?php get_template_part('templates/blog-widgets'); ?>
-	<?php get_template_part('templates/blog-contributors'); ?>
+	<?php if (Setup\display_sidebar()) : ?>
+	        <?php get_template_part('templates/blog-widgets'); ?>
+	        <?php get_template_part('templates/blog-contributors'); ?>
+	<?php endif; ?>
     	<?php
 		do_action('get_footer');
 		get_template_part('templates/footer');
