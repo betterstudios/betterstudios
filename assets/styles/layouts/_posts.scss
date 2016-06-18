@@ -8,10 +8,11 @@
         width: 100%;
         margin: 0 auto;
 	padding: 2em 0;
+	text-align: right;
         @include overlay($color-dark, 0.8);
         .v-center {
                 display: table-cell;
-                vertical-align: middle;
+                vertical-align: bottom;
                 position: relative;
                 z-index: 4;
                 padding: 0 5%;
@@ -19,11 +20,9 @@
                 h2 { @include animation(fade-in ease-in-out 2.4s 0.1s both); }
         }
 	h1 {
-		font-family: Open Sans, Helvetica Neue, Arial, sans-serif;
+		font-family: Sonsie One, cursive;
 		font-weight: 700;
-		font-size: 65px;
 		text-transform: uppercase;
-	        text-align: center;
         	color: $color-light;
 	}
 	h3 {

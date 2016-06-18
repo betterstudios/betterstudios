@@ -8,13 +8,13 @@
         </ul>
         <div class="v-center">
 		<div class="row">
-	                <div class="col-md-2 col-md-offset-2">
+	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">SITE MAP</h2>
 	                        <p><a href="<?php echo get_site_url(); ?>">Home</a></p>
 	                        <p><a href="<?php echo get_site_url(); ?>/blog">Blog</a></p>
 	                        <p><a href="<?php echo get_site_url(); ?>/faq">FAQ</a></p>
 	                </div>
-	                <div class="col-md-2">
+	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">RECENT POSTS</h2>
 				<?php
 					$args = array( 'numberposts' => '5', 'post_status' => 'publish' );
@@ -24,7 +24,7 @@
 					}
 				?>
 	                </div>
-	                <div class="col-md-2">
+	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">META</h2>
 	                        <p><a href="/wp-admin">Site Admin</a></p>
 	                        <p><a href="/logout">Log Out</a></p>
@@ -32,7 +32,7 @@
 	                        <p><a href="http://eepurl.com/b3Y1Hz">Subscribe</a></p>
 	                        <p><a href="http://capoeirastudio.us13.list-manage.com/unsubscribe?u=3db435ce999565383d510d2cd&id=64f83024b3">Unsubscribe</a></p>
 	                </div>
-	                <div class="col-md-2">
+	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">REGISTRATION</h2>
 				<p class="korean">킬롬볼라 레크리에이션</p>
 				<p class="korean">서울특별시중구북창동93-3삼옥빌딩303호</p>
