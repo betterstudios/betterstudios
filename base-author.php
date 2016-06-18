@@ -21,9 +21,11 @@ use Roots\Sage\Wrapper;
 	<section id="dynamic-content" class="dynamic-section">
         	<div class="container-fluid" role="document">
                 	<div class="row">
-	        		<main class="main">
-	          			<?php include Wrapper\template_path(); ?>
-	        		</main><!-- /.main -->
+				<div class="col-sm-8 col-sm-offset-2">
+		        		<main class="main">
+		          			<?php include Wrapper\template_path(); ?>
+		        		</main><!-- /.main -->
+				</div><!-- /.col-sm-8 -->
 			</div><!-- /.row -->
       		</div><!-- /.container -->
     	</section><!-- /.primary -->
