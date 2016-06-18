@@ -5,16 +5,16 @@
                 text-transform: lowercase;
                 color: $color-dark;
 	}
+}
+.dynamic-section {
+	margin-bottom: 4em;
+	text-align: center;
 	h2 {
 		font-family: 'Six Caps';
                 font-weight: 100;
                 text-transform: lowercase;
                 color: $color-orange;
 	}
-}
-.dynamic-section {
-	margin-bottom: 4em;
-	text-align: center;
 	p {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 1.5em;
