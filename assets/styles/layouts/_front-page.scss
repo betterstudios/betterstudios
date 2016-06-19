@@ -8,6 +8,72 @@
 	 * Code licensed under the Apache License v2.0.
 	 * For details, see http://www.apache.org/licenses/LICENSE-2.0.
 	 */
+
+	.front-page-header {
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		text-align: center;
+		color: #fff;
+		background-color: rgba(0,0,0,1);
+		background-position: center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		.header-content {
+			position: relative;
+			width: 100%;
+			padding: 100px 15px;
+			text-align: center;
+			.header-content-inner h1 {
+			    margin-top: 0;
+			    margin-bottom: 0;
+			    text-transform: uppercase;
+			    font-weight: 700;
+			}
+			.header-content-inner hr {
+			    margin: 30px auto;
+			}
+			.header-content-inner p {
+			    margin-bottom: 50px;
+			    font-size: 16px;
+			    font-weight: 300;
+			    color: rgba(255,255,255,.7);
+			}
+		}
+	}
+	@media(min-width:768px) {
+	    	.front-page-header {
+		        min-height: 100vh;
+			.header-content {
+			        position: absolute;
+			        top: 50%;
+			        padding: 0 50px;
+			        transform: translateY(-50%);
+				.header-content-inner {
+				        margin-right: auto;
+				        margin-left: auto;
+				        max-width: 1000px;
+				}
+				.header-content-inner p {
+				        margin-right: auto;
+				        margin-left: auto;
+				        max-width: 80%;
+				        font-size: 18px;
+			    	}
+			}
+		        img {
+		                transition: all ease-out 4s;
+		                width: 78px;
+		                border: 1px solid white;
+		                border-radius: 40px;
+		        }
+		        img:hover {
+		                transform: rotate(-90deg);
+		        }
+	    	}
+	}
 	
 	html,
 	body {
@@ -416,72 +482,5 @@
 	
 	body {
 	    webkit-tap-highlight-color: #222;
-	}
-
-	.front-page-header {
-		position: relative;
-		width: 100%;
-		min-height: auto;
-		text-align: center;
-		color: #fff;
-		background-color: rgba(0,0,0,1);
-		background-position: center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		-o-background-size: cover;
-		.header-content {
-		    position: relative;
-		    width: 100%;
-		    padding: 100px 15px;
-		    text-align: center;
-			.header-content-inner h1 {
-			    margin-top: 0;
-			    margin-bottom: 0;
-			    text-transform: uppercase;
-			    font-weight: 700;
-			}
-			.header-content-inner hr {
-			    margin: 30px auto;
-			}
-			.header-content-inner p {
-			    margin-bottom: 50px;
-			    font-size: 16px;
-			    font-weight: 300;
-			    color: rgba(255,255,255,.7);
-			}
-		}
-	}
-	
-	@media(min-width:768px) {
-	    	.front-page-header {
-		        min-height: 100%;
-			.header-content {
-			        position: absolute;
-			        top: 50%;
-			        padding: 0 50px;
-			        transform: translateY(-50%);
-				.header-content-inner {
-				        margin-right: auto;
-				        margin-left: auto;
-				        max-width: 1000px;
-				}
-				.header-content-inner p {
-				        margin-right: auto;
-				        margin-left: auto;
-				        max-width: 80%;
-				        font-size: 18px;
-			    	}
-			}
-	    	}
-	        img {
-	                transition: all ease-out 4s;
-	                width: 78px;
-	                border: 1px solid white;
-	                border-radius: 40px;
-	        }
-	        img:hover {
-	                transform: rotate(-90deg);
-	        }
 	}
 }
