@@ -60,31 +60,15 @@
         img:hover {
                 transform: rotate(-90deg);
         }
-        ul.keyframe-post-fader {
-                li {
-                        @include bg-abs;
-                        opacity: 0;
-                        @include animation(fade-out 9s infinite both);
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/teachers-header.jpg);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-suassuna-blurry-2000px.png);
-                        }
+	.post-background {
+		opacity: 0;
+                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/teachers-header.jpg);
+		@include bg-abs;
+		@include animation(fade-in 3s);
+                @media (min-width: $mq-med) {
+                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/omizumba-header.jpg);
                 }
-                li:nth-child(2) {
-                        background-image: $chicote-and-xango-800x1200px;
-                        @include animation-delay(6s);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/omizumba-header.jpg);
-                        }
-                }
-                li:nth-child(3) {
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-berinjela-berimbau.jpg);
-                        @include animation-delay(3s);
-                        @media (min-width: $mq-med) {
-                                background-image: $zumba-freeze-2000x1350px;
-                        }
-                }
-        }
+	}
 }
 
 .postpagenav {
