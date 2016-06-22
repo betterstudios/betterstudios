@@ -36,8 +36,6 @@
 	.rotate-words {
 		position: absolute;
 		z-index: 5;
-		text-align: center;
-		text-decoration: none;
 		width: 100%;
 		.rw-words{
 			position: absolute;
@@ -45,7 +43,15 @@
 			top: 50vh;
 			margin-left: -150px;
 			margin-top: -40px;
+			text-align: center;
+			text-decoration: none;
 			perspective: 800px;
+			a {
+				color: #fff;
+				text-decoration: none;
+				outline: 0;
+				border:0;
+			}
 		}
 		.rw-words span{
 			position: absolute;
