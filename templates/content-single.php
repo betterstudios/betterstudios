@@ -26,7 +26,7 @@ while (have_posts()) : the_post(); ?>
 		        <?php $landscape = get_field('landscape'); ?>
 		        <?php $youtube = get_field('youtube'); ?>
 		        <?php $source = get_field('source'); ?>
-		        <div id="background" class="post-background fade-in is-paused">
+		        <div id="background" class="post-background">
 				<?php if( $portrait ): ?><img id="featured-portrait" width="1px" height="1px" src="<?php echo $portrait; ?>"><?php endif; ?>
 				<?php if( $landscape ): ?><img id="featured-landscape" width="1px" height="1px" src="<?php echo $landscape; ?>"><?php endif; ?>
 			</div>

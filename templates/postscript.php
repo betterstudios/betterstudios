@@ -23,10 +23,9 @@ setTimeout(function(){
 	if (mq.matches) {
 		// window width is at least 58em
 		headerIcon.src = landscapeUrl;
+		bkgrndDiv.style.opacity = 0;
 		bkgrndDiv.style.backgroundImage = "url('" + landscapeUrl + "')";
-		if (bkgrndDiv.classList.contains('is-paused')){
-  			bkgrndDiv.classList.remove('is-paused');
-		}
+  		bkgrndDiv.classList.add('backin');
 	} else {
 		// window width is less than 58em
 		headerIcon.src = portraitUrl;

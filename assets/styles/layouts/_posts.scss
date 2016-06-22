@@ -15,21 +15,6 @@
 	text-align: right;
         color: $color-light;
         @include overlay($color-dark, 0.8);
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-.fade-in {
-  opacity: 0;
-  animation: fadeIn .5s ease-in 1 forwards;
-}
-
-.is-paused {
-  animation-play-state: paused;
-}
-
         .v-center {
                 display: table-cell;
                 vertical-align: bottom;
@@ -45,6 +30,9 @@
                 	vertical-align: bottom;
 		}
         }
+	.backin {
+		@include animation(fade-in ease-out 2s 1s forwards);
+	}
 	h1 {
 		font-family: Sonsie One, cursive;
 		font-weight: 700;
