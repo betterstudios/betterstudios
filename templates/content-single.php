@@ -28,7 +28,7 @@ while (have_posts()) : the_post(); ?>
 		        <div id="background" class="post-background"><?php if( $url ): ?><img id="featured-image" width="1px" height="1px" src="<?php echo $url; ?>"><?php endif; ?></div>
 		        <div class="v-center">
 				<div class="top">
-		                	<a onmousedown="tick()" onmouseover="pop()" href="<?= esc_url(home_url('/')); ?>">
+		                	<a onmousedown="tick()" onmouseover="pop()" href="#blog-entry">
 		                        	<img id="header-icon" class="wow rotateInUpRight" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
 		                	</a>
 		                	<h1 class="wow slideInRight"><?php bloginfo('name'); ?> </h1>
@@ -48,7 +48,7 @@ while (have_posts()) : the_post(); ?>
 		        	</div>
 		        </div>
 		</header>
-		<div class="entry-content">
+		<div id="blog-entry" class="entry-content">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2">
