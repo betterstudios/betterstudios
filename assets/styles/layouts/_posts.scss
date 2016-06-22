@@ -22,6 +22,12 @@
                 padding: 0 5%;
                 h1 { @include animation(fade-in ease-in-out 2s 0.5s both); }
                 h2 { @include animation(fade-in ease-in-out 2.4s 0.1s both); }
+		.top {
+                	vertical-align: top;
+		}
+		.bottom {
+                	vertical-align: bottom;
+		}
         }
 	h1 {
 		font-family: Sonsie One, cursive;
