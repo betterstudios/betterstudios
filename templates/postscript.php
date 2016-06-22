@@ -23,6 +23,8 @@ setTimeout(function(){
 	if (mq.matches) {
 		// window width is at least 58em
 		headerIcon.src = landscapeUrl;
+		bkgrndDiv.style.opacity = 1;
+		bkgrndDiv.style.transition = "opacity 1s";
 		bkgrndDiv.style.backgroundImage = "url('" + landscapeUrl + "')";
 	} else {
 		// window width is less than 58em
@@ -30,27 +32,27 @@ setTimeout(function(){
 		bkgrndDiv.style.backgroundImage = "url('" + portraitUrl + "')";
 	}
 
-/* JavaScript Media Queries */
-if (matchMedia) {
-        var mq = window.matchMedia("(min-width: 58em)");
-        mq.addListener(WidthChange);
-        WidthChange(mq);
-}
-
-// media query change
-function WidthChange(mq) {
-
-	if (mq.matches) {
-		// window width is at least 58em
-		headerIcon.src = landscapeUrl;
-		bkgrndDiv.style.backgroundImage = "url('" + landscapeUrl + "')";
-	} else {
-		// window width is less than 58em
-		headerIcon.src = portraitUrl;
-		bkgrndDiv.style.backgroundImage = "url('" + portraitUrl + "')";
+	/* JavaScript Media Queries */
+	if (matchMedia) {
+	        var mq = window.matchMedia("(min-width: 58em)");
+	        mq.addListener(WidthChange);
+	        WidthChange(mq);
 	}
-
-}
+	
+	// media query change
+	function WidthChange(mq) {
+	
+		if (mq.matches) {
+			// window width is at least 58em
+			headerIcon.src = landscapeUrl;
+			bkgrndDiv.style.backgroundImage = "url('" + landscapeUrl + "')";
+		} else {
+			// window width is less than 58em
+			headerIcon.src = portraitUrl;
+			bkgrndDiv.style.backgroundImage = "url('" + portraitUrl + "')";
+		}
+	
+	}
 }, 4000);
 </script>
 
