@@ -23,7 +23,8 @@ while (have_posts()) : the_post(); ?>
 		<header class="post-header">
 		        <!-- post header -->
 		        <?php $url = get_field('banner'); ?>
-		        <?php if( $url ): ?><div id="background" class="post-background" style="background-image: <?php echo $url; ?>"><?php endif; ?>
+		        <?php if( $url ): ?><div id="background" class="post-background" style="background-image: <?php echo $url; ?>">
+		        <?php else; ?><div id="background" class="post-background"><?php endif; ?>
 		        <div class="v-center">
 		                <a onmousedown="tick()" onmouseover="pop()" href="<?= esc_url(home_url('/')); ?>">
 		                        <img class="wow rotateInUpRight" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
