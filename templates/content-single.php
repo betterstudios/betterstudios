@@ -22,8 +22,8 @@ while (have_posts()) : the_post(); ?>
 	<article <?php post_class(); ?>>
 		<header class="post-header">
 		        <!-- post header -->
-		        <?php $portrait = get_field('banner-portrait'); ?>
-		        <?php $landscape = get_field('banner-landscape'); ?>
+		        <?php $portrait = get_field('portrait'); ?>
+		        <?php $landscape = get_field('landscape'); ?>
 		        <?php $youtube = get_field('youtube'); ?>
 		        <?php $source = get_field('source'); ?>
 		        <div id="background" class="post-background">
