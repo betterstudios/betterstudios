@@ -11,7 +11,7 @@ setTimeout(function(){
 	var headerIcon = document.getElementById("header-icon"); 
 
 	// assign new background image to the div variable and the header icon
-	bkgrndDiv.style.backgroundImage = imgUrl;
+	bkgrndDiv.style.backgroundImage = "url('" + imgUrl + "')";
 	headerIcon.src = imgUrl;
 }, 5000);
 </script>
