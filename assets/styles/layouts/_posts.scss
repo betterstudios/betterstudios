@@ -31,7 +31,7 @@
 		}
         }
 	.backin {
-		@include animation(fade-in ease-out 2s 1s forwards);
+		@include animation(fade-in ease-out 4s 0.1s forwards);
 	}
 	h1 {
 		font-family: Sonsie One, cursive;
