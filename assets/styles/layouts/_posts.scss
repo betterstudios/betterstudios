@@ -33,6 +33,9 @@
 	.backin {
 		@include animation(fade-in ease-out 4s 0.1s forwards);
 	}
+	.wobbling-arrow {
+		@include animation(wobble-vertical ease-out 4s 1s infinite);
+	}
 	.rotate-words {
 		position: absolute;
 		z-index: 5;

@@ -36,6 +36,9 @@ while (have_posts()) : the_post(); ?>
 						<span><a href="#blog-entry">share</a></span>
 						<span><a href="#blog-entry">contribute</a></span>
 					</div>
+					<div class="wobbling-arrow">
+						<i class="fa fa-arrow-down" aria-hidden="true"></i>
+					</div>
 			</div>
 		        <div class="v-center">
 				<div class="top">
