@@ -28,7 +28,7 @@ while (have_posts()) : the_post(); ?>
 		        <div id="background" class="post-background"><?php if( $url ): ?><img id="featured-image" width="1px" height="1px" src="<?php echo $url; ?>"><?php endif; ?></div>
 		        <div class="v-center">
 		                <a onmousedown="tick()" onmouseover="pop()" href="<?= esc_url(home_url('/')); ?>">
-		                        <img id="header-icon" class="header-icon wow rotateInUpRight" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
+		                        <img id="header-icon" class="wow rotateInUpRight" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
 		                </a>
 		                <h1 class="wow slideInRight"><?php bloginfo('name'); ?> </h1>
 				<hr class="primary front-page wow pulse" data-wow-delay="3s">
