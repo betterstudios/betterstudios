@@ -30,6 +30,13 @@ while (have_posts()) : the_post(); ?>
 				<?php if( $portrait ): ?><img id="featured-portrait" width="1px" height="1px" src="<?php echo $portrait; ?>"><?php endif; ?>
 				<?php if( $landscape ): ?><img id="featured-landscape" width="1px" height="1px" src="<?php echo $landscape; ?>"><?php endif; ?>
 			</div>
+		        <div id="call-to-action" class="rotate-words">
+					<div class="rw-words">
+						<span>read</span>
+						<span>share</span>
+						<span>contribute</span>
+					</div>
+			</div>
 		        <div class="v-center">
 				<div class="top">
 		                	<a onmousedown="tick()" onmouseover="pop()" href="#blog-entry">
