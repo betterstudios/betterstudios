@@ -32,16 +32,16 @@ while (have_posts()) : the_post(); ?>
 			</div>
 		        <div class="v-center">
 				<div class="top">
-		      			<h4 class="entry-title"><?php the_title(); ?><br> ( Author: <?php echo $source; ?> )</h4>
-		      			<h3 class="wow pulse" data-wow-delay="2s">Blog Entry</h3>
-					<?php get_template_part('templates/entry-meta'); ?>
-		        	</div>
-		        	<div class="bottom">
 		                	<a onmousedown="tick()" onmouseover="pop()" href="#blog-entry">
 		                        	<img id="header-icon" class="wow rotateInUpRight" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
 		                	</a>
 		                	<h1 class="wow slideInRight"><?php bloginfo('name'); ?> </h1>
 					<hr class="primary front-page wow pulse" data-wow-delay="3s">
+		        	</div>
+		        	<div class="bottom">
+		      			<h4 class="entry-title"><?php the_title(); ?><br> ( Author: <?php echo $source; ?> )</h4>
+		      			<h3 class="wow pulse" data-wow-delay="2s">Blog Entry</h3>
+					<?php get_template_part('templates/entry-meta'); ?>
 		                	<nav class="nav-primary">
 		                        	<?php
 		                                	if (has_nav_menu('primary_navigation')) :
