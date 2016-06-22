@@ -24,11 +24,9 @@
                 h1 { @include animation(fade-in ease-in-out 2s 0.5s both); }
                 h2 { @include animation(fade-in ease-in-out 2.4s 0.1s both); }
 		.top {
-                	display: table-cell;
                 	vertical-align: top;
 		}
 		.bottom {
-                	display: table-cell;
                 	vertical-align: bottom;
 		}
         }
@@ -70,7 +68,6 @@
                 transform: rotate(-90deg);
         }
 	.post-background {
-		opacity: 0;
                 background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/teachers-header.jpg);
 		@include bg-abs;
                 @media (min-width: $mq-med) {
