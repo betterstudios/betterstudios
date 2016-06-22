@@ -1,5 +1,6 @@
 <!-- Scripts for Beautifying Posts -->
 <script type="text/javascript">
+
 setTimeout(function(){
 	// respond to CSS3 media query state changes within JavaScript with the window.matchMedia API. 
 	// this is passed a media query string identical to those used in CSS
@@ -29,5 +30,27 @@ setTimeout(function(){
 		bkgrndDiv.style.backgroundImage = "url('" + portraitUrl + "')";
 	}
 }, 4000);
+
+/* JavaScript Media Queries */
+if (matchMedia) {
+        var mq = window.matchMedia("(min-width: 58em)");
+        mq.addListener(WidthChange);
+        WidthChange(mq);
+}
+
+// media query change
+function WidthChange(mq) {
+
+	if (mq.matches) {
+		// window width is at least 58em
+		headerIcon.src = landscapeUrl;
+		bkgrndDiv.style.backgroundImage = "url('" + landscapeUrl + "')";
+	} else {
+		// window width is less than 58em
+		headerIcon.src = portraitUrl;
+		bkgrndDiv.style.backgroundImage = "url('" + portraitUrl + "')";
+	}
+
+}
 </script>
 
