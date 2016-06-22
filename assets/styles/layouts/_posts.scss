@@ -34,12 +34,15 @@
 		@include animation(fade-in ease-out 4s 0.1s forwards);
 	}
 	.rotate-words {
+		z-index: 5;
+		text-align: center;
+		width: 100%;
 		.rw-words{
 			position: absolute;
 			left: 50vw;
 			top: 50vh;
-			height: 80px;
-			width: 400px;
+			margin-left: -150px;
+			margin-top: -40px
 			perspective: 800px;
 		}
 		.rw-words span{
