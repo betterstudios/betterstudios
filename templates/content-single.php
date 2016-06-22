@@ -26,14 +26,14 @@ while (have_posts()) : the_post(); ?>
 		        <?php $youtube = get_field('youtube'); ?>
 		        <?php $source = get_field('source'); ?>
 		        <div id="background" class="post-background"><?php if( $url ): ?><img id="featured-image" width="1px" height="1px" src="<?php echo $url; ?>"><?php endif; ?></div>
-		        <div class="v-center top">
+		        <div class="v-center"><div class="top">
 		                <a onmousedown="tick()" onmouseover="pop()" href="<?= esc_url(home_url('/')); ?>">
 		                        <img id="header-icon" class="wow rotateInUpRight" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
 		                </a>
 		                <h1 class="wow slideInRight"><?php bloginfo('name'); ?> </h1>
 				<hr class="primary front-page wow pulse" data-wow-delay="3s">
 		        </div>
-		        <div class="v-center bottom">
+		        <div class="v-center"><div class="bottom">
 		      		<h4 class="entry-title"><?php the_title(); ?><br> ( Author: <?php echo $source; ?> )</h4>
 		      		<h3 class="wow pulse" data-wow-delay="2s">Blog Entry</h3>
 				<?php get_template_part('templates/entry-meta'); ?>
