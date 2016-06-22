@@ -1,6 +1,6 @@
 <!-- Scripts for Beautifying Posts -->
 <script type="text/javascript">
-(function(){
+setTimeout(function(){
 	// get the source url of the imaged with the id "featured-image"
 	var imgUrl = document.getElementById("featured-image").src;
 
@@ -12,7 +12,7 @@
 
 	// assign new background image to the div variable and the header icon
 	bkgrndDiv.style.backgroundImage = "url('" + imgUrl + "')";
-	headerIcon.style.backgroundImage = "url('" + imgUrl + "')";
-})();
+	headerIcon.src = "url('" + imgUrl + "')";
+}, 5000);
 </script>
 
