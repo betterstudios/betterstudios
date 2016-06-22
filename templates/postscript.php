@@ -29,7 +29,6 @@ setTimeout(function(){
 		headerIcon.src = portraitUrl;
 		bkgrndDiv.style.backgroundImage = "url('" + portraitUrl + "')";
 	}
-}, 4000);
 
 /* JavaScript Media Queries */
 if (matchMedia) {
@@ -52,5 +51,6 @@ function WidthChange(mq) {
 	}
 
 }
+}, 4000);
 </script>
 
