@@ -23,9 +23,10 @@ setTimeout(function(){
 	if (mq.matches) {
 		// window width is at least 58em
 		headerIcon.src = landscapeUrl;
-		bkgrndDiv.style.opacity = 1;
-		bkgrndDiv.style.transition = "opacity 1s";
 		bkgrndDiv.style.backgroundImage = "url('" + landscapeUrl + "')";
+		if (bkgrndDiv.classList.contains('is-paused')){
+  			bkgrndDiv.classList.remove('is-paused');
+		}
 	} else {
 		// window width is less than 58em
 		headerIcon.src = portraitUrl;
