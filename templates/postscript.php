@@ -1,8 +1,13 @@
 <!-- Scripts for Beautifying Posts -->
 <script type="text/javascript">
 setTimeout(function(){
-	// get the source url of the imaged with the id "featured-image"
-	var imgUrl = document.getElementById("featured-image").src;
+	// respond to CSS3 media query state changes within JavaScript with the window.matchMedia API. 
+	// this is passed a media query string identical to those used in CSS
+	var mq = window.matchMedia( "(min-width: 58em)" );
+
+	// get the source url of the image with the id "featured-portrait" or "featured-landscape"
+	var portraitUrl = document.getElementById("featured-portrait").src;
+	var landscapeUrl = document.getElementById("featured-landscape").src;
 
 	// assign the div with the identifier of "background" to a variable
 	var bkgrndDiv = document.getElementById("background"); 
@@ -11,11 +16,18 @@ setTimeout(function(){
 	var headerIcon = document.getElementById("header-icon"); 
 
 	// assign new background image to the div variable and the header icon
-	bkgrndDiv.style.backgroundImage = "url('" + imgUrl + "')";
 	headerIcon.style.width = "200px";
 	headerIcon.style.height = "auto";
 	headerIcon.style.borderRadius = "2px";
-	headerIcon.src = imgUrl;
-}, 5000);
+	if (mq.matches) {
+		// window width is at least 58em
+		headerIcon.src = landscapeUrl;
+		bkgrndDiv.style.backgroundImage = "url('" + landscapeUrl + "')";
+	} else {
+		// window width is less than 58em
+		headerIcon.src = portraitUrl;
+		bkgrndDiv.style.backgroundImage = "url('" + portraitUrl + "')";
+	}
+}, 4000);
 </script>
 

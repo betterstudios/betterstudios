@@ -22,10 +22,14 @@ while (have_posts()) : the_post(); ?>
 	<article <?php post_class(); ?>>
 		<header class="post-header">
 		        <!-- post header -->
-		        <?php $url = get_field('banner'); ?>
+		        <?php $portrait = get_field('banner-portrait'); ?>
+		        <?php $landscape = get_field('banner-landscape'); ?>
 		        <?php $youtube = get_field('youtube'); ?>
 		        <?php $source = get_field('source'); ?>
-		        <div id="background" class="post-background"><?php if( $url ): ?><img id="featured-image" width="1px" height="1px" src="<?php echo $url; ?>"><?php endif; ?></div>
+		        <div id="background" class="post-background">
+				<?php if( $portrait ): ?><img id="featured-portrait" width="1px" height="1px" src="<?php echo $portrait; ?>"><?php endif; ?>
+				<?php if( $landscape ): ?><img id="featured-landscape" width="1px" height="1px" src="<?php echo $landscape; ?>"><?php endif; ?>
+			</div>
 		        <div class="v-center">
 				<div class="top">
 		                	<a onmousedown="tick()" onmouseover="pop()" href="#blog-entry">
