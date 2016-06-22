@@ -32,9 +32,9 @@ while (have_posts()) : the_post(); ?>
 			</div>
 		        <div id="call-to-action" class="rotate-words">
 					<div class="rw-words">
-						<span>read</span>
-						<span>share</span>
-						<span>contribute</span>
+						<span>read <i class="fa fa-book" aria-hidden="true"></i></span>
+						<span>share <i class="fa fa-share-alt" aria-hidden="true"></i></span>
+						<span>contribute <i class="fa fa-pencil" aria-hidden="true"></i></span>
 					</div>
 			</div>
 		        <div class="v-center">
