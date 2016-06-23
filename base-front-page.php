@@ -32,7 +32,7 @@ use Roots\Sage\Wrapper;
 			get_template_part('templates/footer');
 			wp_footer();
 		?>
-		</div>
 		<?php get_template_part('templates/remarketing'); ?>
+		</div>
 	</body>
 </html>
