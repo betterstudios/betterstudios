@@ -213,7 +213,10 @@
 	.btn {
 		border-left: 1px solid $color-grey;
 	}
-	border-radius: 3px;
+	.btn-default {
+		border: 1px solid $color-grey;
+	}
+	border-radius: 4px;
 	a.facebook:hover {
 	    color:#fff;
 	    background: #3b5998;
