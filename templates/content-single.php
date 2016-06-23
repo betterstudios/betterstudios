@@ -71,21 +71,6 @@ while (have_posts()) : the_post(); ?>
 				</div>
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2">
-			                       	<div class="postpagenav">
-                              				<ul>
-                                        			<?php if (is_attachment()) {
-                                                   			previous_image_link( '<li class="prev_page">'.__('&lsaquo;','capoeirastudio').'&nbsp;&nbsp;%link </li>','%title',false);
-                                                   			next_image_link( '<li class="next_page">%link&nbsp;&nbsp;'.__('&rsaquo;','capoeirastudio').' </li>','%title',false);
-                            					} else {
-                                                    			previous_post_link( '<li class="prev_page">'.__('&lsaquo;','capoeirastudio').'&nbsp;&nbsp;%link </li>','Previous',false);
-                                                   			next_post_link( '<li class="next_page">%link&nbsp;&nbsp;'.__('&rsaquo;','capoeirastudio').' </li>','Next',false);
-                                        			} ?>
-                                  			</ul>
-                                		</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
 						<?php get_template_part('templates/news-share'); ?>
 					</div>
 				</div>
@@ -103,6 +88,21 @@ while (have_posts()) : the_post(); ?>
 						        <div class="title-divider"></div>
 						        <p><?php the_author_meta( 'description' , $capoeirastudio_uid ); ?></p>
 						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+			                       	<div class="postpagenav">
+                              				<ul>
+                                        			<?php if (is_attachment()) {
+                                                   			previous_image_link( '<li class="prev_page">'.__('&lsaquo;','capoeirastudio').'&nbsp;&nbsp;%link </li>','%title',false);
+                                                   			next_image_link( '<li class="next_page">%link&nbsp;&nbsp;'.__('&rsaquo;','capoeirastudio').' </li>','%title',false);
+                            					} else {
+                                                    			previous_post_link( '<li class="prev_page">'.__('&lsaquo;','capoeirastudio').'&nbsp;&nbsp;%link </li>','Previous',false);
+                                                   			next_post_link( '<li class="next_page">%link&nbsp;&nbsp;'.__('&rsaquo;','capoeirastudio').' </li>','Next',false);
+                                        			} ?>
+                                  			</ul>
+                                		</div>
 					</div>
 				</div>
 				<div class="row">
