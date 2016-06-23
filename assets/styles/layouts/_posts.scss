@@ -43,6 +43,11 @@
 			top: 75vh;
 			margin-left: 5px;
 			margin-top: 20px;
+			a {
+				text-decoration: none;
+				outline: 0;
+				border:0;
+			}
 			@include animation(wobble-vertical ease-out 4s 1s infinite);
 	                @media (min-width: $mq-large) {
 				left: 50vw;
@@ -61,7 +66,6 @@
 			text-decoration: none;
 			perspective: 800px;
 			a {
-				color: #fff;
 				text-decoration: none;
 				outline: 0;
 				border:0;
