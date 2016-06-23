@@ -33,5 +33,6 @@ use Roots\Sage\Wrapper;
 			wp_footer();
 		?>
 		</div>
+		<?php get_template_part('templates/remarketing'); ?>
 	</body>
 </html>
