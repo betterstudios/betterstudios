@@ -211,9 +211,8 @@
 
 .sharing-btns {
 	.btn {
-		border-left: 1px solid $color-dark;
+		border-left: none;
 	}
-	border: 1px solid #666666;
 	border-radius: 3px;
 	a.facebook:hover {
 	    color:#fff;
