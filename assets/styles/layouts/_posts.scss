@@ -40,11 +40,13 @@
 		.wobbling-arrow {
 			position: absolute;
 			left: 5vw;
-			top: 95vh;
+			top: 85vh;
 			margin-left: 5px;
 			margin-top: 20px;
 			@include animation(wobble-vertical ease-out 4s 1s infinite);
 	                @media (min-width: $mq-large) {
+				left: 50vw;
+				top: 50vh;
 				margin-left: 50px;
 				margin-top: 100px;
 	                }
@@ -52,7 +54,7 @@
 		.rw-words{
 			position: absolute;
 			left: 5vw;
-			top: 95vh;
+			top: 85vh;
 			margin-left: -9px;
 			margin-top: 0px;
 			text-align: center;
@@ -65,6 +67,8 @@
 				border:0;
 			}
 	                @media (min-width: $mq-large) {
+				left: 50vw;
+				top: 50vh;
 				margin-left: -150px;
 				margin-top: -40px;
 	                }
