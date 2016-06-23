@@ -44,6 +44,7 @@
 			margin-left: 5px;
 			margin-top: 20px;
 			a {
+				color: $color-orange;
 				text-decoration: none;
 				outline: 0;
 				border:0;
@@ -66,6 +67,7 @@
 			text-decoration: none;
 			perspective: 800px;
 			a {
+				color: $color-orange;
 				text-decoration: none;
 				outline: 0;
 				border:0;
@@ -154,7 +156,7 @@
 			transition: all 0.3s ease-in-out 0s;
 			margin-right: 15px;
 			a {
-				color: #fff;
+				color: $color-dark;
 				text-decoration: none;
 				outline: 0;
 				border:0;
