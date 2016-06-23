@@ -41,16 +41,20 @@
 			position: absolute;
 			left: 50vw;
 			top: 50vh;
-			margin-left: 50px;
-			margin-top: 100px;
+			margin-left: 5px;
+			margin-top: 20px;
 			@include animation(wobble-vertical ease-out 4s 1s infinite);
+	                @media (min-width: $mq-large) {
+				margin-left: 50px;
+				margin-top: 100px;
+	                }
 		}
 		.rw-words{
 			position: absolute;
 			left: 50vw;
 			top: 50vh;
-			margin-left: -150px;
-			margin-top: -40px;
+			margin-left: 0px;
+			margin-top: 0px;
 			text-align: center;
 			text-decoration: none;
 			perspective: 800px;
@@ -60,15 +64,23 @@
 				outline: 0;
 				border:0;
 			}
+	                @media (min-width: $mq-large) {
+				margin-left: -150px;
+				margin-top: -40px;
+	                }
 		}
 		.rw-words span{
 			position: absolute;
-			width: 400px;
-			font-size: 800%;
+			width: 40px;
+			font-size: 100%;
 			color: transparent;
 			text-shadow: 0px 0px 80px rgba(255,255,255,1);
 			opacity: 0;
                 	@include animation(rotateWord 9s ease-out infinite 0s);
+	                @media (min-width: $mq-large) {
+				width: 400px;
+				font-size: 800%;
+	                }
 		}
 		.rw-words span:nth-child(2) { 
 			animation-delay: 3s; 
