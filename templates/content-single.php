@@ -32,12 +32,12 @@ while (have_posts()) : the_post(); ?>
 			</div>
 		        <div id="call-to-action" class="rotate-words">
 					<div class="rw-words">
-						<span><a href="#blog-entry">read</a></span>
-						<span><a href="#blog-entry">share</a></span>
-						<span><a href="#blog-entry">contribute</a></span>
+						<span><a class="page-scroll" href="#blog-entry">read</a></span>
+						<span><a class="page-scroll" href="#blog-entry">share</a></span>
+						<span><a class="page-scroll" href="#blog-entry">contribute</a></span>
 					</div>
 					<div class="wobbling-arrow">
-						<a href="#blog-entry"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+						<a class="page-scroll" href="#blog-entry"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
 					</div>
 			</div>
 		        <div class="v-center">
