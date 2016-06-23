@@ -27,12 +27,11 @@ use Roots\Sage\Wrapper;
 		<?php get_template_part('templates/teachers'); ?>
 		<?php get_template_part('templates/pricing'); ?>
 		<?php get_template_part('templates/contact'); ?>
-		</div>
 		<?php
 			do_action('get_footer');
 			get_template_part('templates/footer');
 			wp_footer();
 		?>
-		<?php get_template_part('templates/remarketing'); ?>
+		</div>
 	</body>
 </html>
