@@ -373,9 +373,9 @@
 	}
 	
 	.btn-default {
-	    border-color: #fff;
+	    border-color: $color-light;
 	    color: #222;
-	    background-color: #fff;
+	    background-color: $color-light;
 	    -webkit-transition: all .35s;
 	    -moz-transition: all .35s;
 	    transition: all .35s;
@@ -426,9 +426,9 @@
 	}
 	
 	.btn-primary {
-	    border-color: #ff9900;
-	    color: #fff;
-	    background-color: #ff9900;
+	    border-color: $color-light;
+	    color: $color-light;
+	    background-color: $color-blue;
 	    -webkit-transition: all .35s;
 	    -moz-transition: all .35s;
 	    transition: all .35s;
