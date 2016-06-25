@@ -10,6 +10,7 @@
 		min-height: 100vh;
 		text-align: center;
 		color: #fff;
+		background-image: url('https://s3.amazonaws.com/betterstudios/eye-of-horus-header.jpg');
 		background-color: rgba(255,255,255,1);
 		background-position: center;
 		-webkit-background-size: cover;
@@ -26,6 +27,7 @@
 				position: relative;
 				z-index: 4;
 				width: 100%;
+				background-color: rgba($color-light, 0.3);
 				h1 {
 				    margin-top: 0;
 				    margin-bottom: 0;
