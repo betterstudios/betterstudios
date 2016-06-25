@@ -12,6 +12,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:900,100' rel='stylesheet' type='text/css'>
 
 	<!-- FAVICON.ICO -->
 	<link rel="shortcut icon" href="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-alpha-icon-600x600px.png" />
