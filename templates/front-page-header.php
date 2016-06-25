@@ -2,6 +2,7 @@
 	<div class="header-content">
 		<div class="header-content-inner">
 			<div class="left-side">
+				<div class="underlay"> </div>
 				<h1>Creative Movement.<br> Serious Fitness.</h1>
 				<hr>
 				<p>dance, play, sing and above all move creatively</p>
