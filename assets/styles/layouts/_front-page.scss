@@ -49,6 +49,7 @@
 				        top: 50%;
 				        left: 50%;
 				        transform: translateY(-50%);
+				        transform: translateX(-50%);
 					h1 {
 					    	margin: 0 auto;
 						font-family: 'Raleway';
@@ -58,7 +59,7 @@
 						color: $color-grey;
 					}
 					hr {
-					    	margin: 30px auto;
+					    	margin: 2em auto;
 					}
 					p {
 					    	margin: 0 auto;
@@ -69,7 +70,7 @@
 						color: $color-dark;
 					}
 					a {
-						margin: 1em auto;
+						margin: 2em auto;
 					}
 				}
 			}
