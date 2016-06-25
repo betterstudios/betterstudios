@@ -9,7 +9,7 @@
 
 $(".front-page-header").vegas({
       timer: false,
-      delay: 17000,
+      delay: 700,
       preload: true,
       overlay: 'https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/07.png',
       slides: [

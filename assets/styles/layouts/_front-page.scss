@@ -5,6 +5,7 @@
 .front-page {
 	.front-page-header {
 		position: relative;
+		z-index: 1;
 		width: 100%;
 		min-height: 100vh;
 		text-align: center;
@@ -22,8 +23,9 @@
 			padding: 100px 15px;
 			text-align: center;
 			.left-side {
-				width: 50%;
+				position: relative;
 				z-index: 4;
+				width: 100%;
 				h1 {
 				    margin-top: 0;
 				    margin-bottom: 0;
@@ -40,10 +42,13 @@
 				    color: rgba(255,255,255,.7);
 				}
 			}
+			.right-side {
+				position: relative;
+				z-index: 3;
+				text-align: right;
+			}
 		}
-	}
-	@media(min-width:768px) {
-	    	.front-page-header {
+		@media(min-width:768px) {
 		        min-height: 100vh;
 			.header-content {
 			        position: absolute;
@@ -55,7 +60,7 @@
 				        margin-left: auto;
 				        max-width: 1000px;
 					.left-side {
-						width: 100%;
+						width: 50%;
 						p {
 						        margin-right: auto;
 						        margin-left: auto;
