@@ -39,12 +39,16 @@
 					background-color: rgba($color-light, 0.3);
 				}
 				.header-content-inner {
+				        position: absolute;
+				        top: 50%;
+				        padding: 0 2em;
+				        transform: translateY(-50%);
 					h1 {
 					    	margin: 0 auto;
-					    	text-transform: uppercase;
 						font-family: 'Raleway';
 					    	font-weight: 900;
 					    	font-size: 3em;
+					    	text-transform: uppercase;
 						color: $color-grey;
 					}
 					hr {
@@ -52,10 +56,14 @@
 					}
 					p {
 					    	margin: 0 auto;
-						font-family: 'Lato';
+						font-family: 'Yanoner Kaffeesatz';
 					    	font-size: 1em;
 					    	font-weight: 100;
+					    	text-transform: lowercase;
 						color: $color-dark;
+					}
+					a {
+						margin: 1em auto;
 					}
 				}
 			}
@@ -110,9 +118,9 @@
 	}
 	
 	hr {
-	    max-width: 50px;
-	    border-color: #ff9900;
-	    border-width: 3px;
+	    max-width: 4em;
+	    border-color: $color-blue;
+	    border-width: 0.25em;
 	}
 	
 	hr.light {
