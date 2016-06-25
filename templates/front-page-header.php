@@ -5,7 +5,7 @@
 			<div class="header-content-inner">
 				<h1><?php bloginfo( 'name' ); ?></h1>
 				<hr>
-				<p><h1><?php bloginfo( 'description' ); ?></p>
+				<p><?php bloginfo( 'description' ); ?></p>
 				<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay=".1s">Find Out More</a>
 			</div>
 		</div>

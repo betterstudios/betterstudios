@@ -28,6 +28,9 @@
 				position: relative;
 				z-index: 4;
 				width: 100%;
+				@media(min-width:768px) {
+					width: 50%;
+				}
 				min-height: 100vh;
 				.underlay {
 					position: absolute;
@@ -37,6 +40,9 @@
 					margin: 0;
 					padding: 0;
 					background-color: rgba($color-light, 0.3);
+					@media(min-width:768px) {
+						background-color: rgba($color-light, 0);
+					}
 				}
 				.header-content-inner {
 				        position: absolute;
@@ -47,7 +53,7 @@
 					    	margin: 0 auto;
 						font-family: 'Raleway';
 					    	font-weight: 900;
-					    	font-size: 3em;
+					    	font-size: 2em;
 					    	text-transform: uppercase;
 						color: $color-grey;
 					}
@@ -57,7 +63,7 @@
 					p {
 					    	margin: 0 auto;
 						font-family: 'Yanoner Kaffeesatz';
-					    	font-size: 1em;
+					    	font-size: 0.5em;
 					    	font-weight: 100;
 					    	text-transform: lowercase;
 						color: $color-dark;
@@ -73,38 +79,6 @@
 				text-align: right;
 			}
 		}
-		@media(min-width:768px) {
-		        min-height: 100vh;
-			.header-content {
-			        position: absolute;
-			        top: 50%;
-			        padding: 0 50px;
-			        transform: translateY(-50%);
-				.header-content-inner {
-				        margin-right: auto;
-				        margin-left: auto;
-				        max-width: 1000px;
-					.left-side {
-						width: 50%;
-						p {
-						        margin-right: auto;
-						        margin-left: auto;
-						        max-width: 80%;
-						        font-size: 18px;
-				    		}
-					}
-			    	}
-			}
-		        img {
-		                transition: all ease-out 4s;
-		                width: 78px;
-		                border: 1px solid white;
-		                border-radius: 40px;
-		        }
-		        img:hover {
-		                transform: rotate(-90deg);
-		        }
-	    	}
 	}
 	
 	html,
