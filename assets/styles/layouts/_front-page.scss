@@ -91,16 +91,16 @@
 					.carousel {
 						.carousel-inner {
 							.item {
-								width: 100%;
+								width: 100vw;
 								@media(min-width:768px) {
-									width: 50%;
+									width: 50vw;
 								}
 								min-height: 100vh;
 								background-color: rgba($color-light,1);
 								background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
-								background-size: cover;
+								background-size: 50%;
 								background-repeat: no-repeat;
-								background-position: center center;
+								background-position: 50% 25%;
 							}
 						}
 					}
