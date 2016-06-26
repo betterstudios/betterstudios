@@ -9,9 +9,9 @@
 		width: 100%;
 		min-height: 100vh;
 		text-align: center;
-		color: #fff;
+		color: $color-dark;
 		background-image: url('https://s3.amazonaws.com/betterstudios/eye-of-horus-header.jpg');
-		background-color: rgba(255,255,255,1);
+		background-color: rgba($color-light,1);
 		background-position: center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -42,7 +42,7 @@
 					padding: 0;
 					background-color: rgba($color-light, 0.3);
 					@media(min-width:768px) {
-						background-color: rgba($color-light, 1);
+						background-color: rgba($color-light, 0.8);
 					}
 				}
 				.header-content-inner {
@@ -91,8 +91,9 @@
 							.item {
 								width: 100%;
 								min-height: 100vh;
+								background-color: rgba($color-light,1);
 								background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
-								background-size: 100%;
+								background-size: cover;
 								background-repeat: no-repeat;
 								background-position: center center;
 							}
