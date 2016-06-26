@@ -6,6 +6,9 @@
 	position: absolute;
 	width: 100%;
 	top: 40%;
+	@media(min-width:768px) {
+		top: 45%
+	}
 	overflow: hidden;
 	font-size: 1em;
 	text-align: center;
@@ -17,7 +20,7 @@
 .carousel.vertical .carousel-inner {
 	height: 100%;
 	width: auto;
-	> .item {
+	.item {
 		width: auto;
 		padding-right: 50px;
 		transition: 0.6s ease-in-out top;
@@ -41,34 +44,34 @@
 			}
     		}
 	}
-	> .active,
-	> .next,
-	> .prev {
+	.active,
+	.next,
+	.prev {
 		display: block;
 	}
-	> .active {
+	.active {
 		top: 0;
 	}
-	> .next,
-	> .prev {
+	.next,
+	.prev {
 		position: absolute;
 		top: 0;
 		width: 100%;
 	}
-	> .next {
+	.next {
 		top: 100%;
 	}
-	> .prev {
+	.prev {
 		top: -100%;
 	}
-	> .next.left,
-	> .prev.right {
+	.next.left,
+	.prev.right {
 		top: 0;
 	}
-	> .active.left {
+	.active.left {
 		top: -100%;
 	}
-	> .active.right {
+	.active.right {
 		top: 100%;
 	}
 }
