@@ -14,6 +14,19 @@
 				<div class="carousel vertical slide">
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
+							<p class="ticker-headline">
+								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
+							</p>
+						</div>
+						<div class="item">
+							<p class="ticker-headline">
+								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
+							</p>
+						</div>
+						<div class="item">
+							<p class="ticker-headline">
+								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
+							</p>
 						</div>
 					</div>
 				</div>
