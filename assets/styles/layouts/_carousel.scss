@@ -5,12 +5,13 @@
 .ticker-headline {
 	position: absolute;
 	width: 100%;
+	top: 40%;
 	overflow: hidden;
+	font-size: 1em;
 	text-align: center;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	margin: 0;
-	font-size: 1em;
 }
 
 .carousel.vertical .carousel-inner {
