@@ -26,19 +26,19 @@
 		transition: 0.6s ease-in-out top;
 		@media all and (transform-3d), (-webkit-transform-3d) {
 			transition: 0.6s ease-in-out;
-			.next,
-			.active.right {
+			&.next,
+			&.active.right {
 				transform: translate3d(0, 100%, 0);
 				top: 0;
 			}
-			.prev,
-			.active.left {
+			&.prev,
+			&.active.left {
 				transform: translate3d(0, -100%, 0);
 				top: 0;
 			}
-			.next.left,
-			.prev.right,
-			.active {
+			&.next.left,
+			&.prev.right,
+			&.active {
 				transform: translate3d(0, 0, 0);
 				top: 0;
 			}
@@ -80,12 +80,12 @@
 	.carousel-control {
 		left: auto;
 		width: 50px;
-		.up {
+		&.up {
 			top: 0;
 			right: 0;
 			bottom: 50%;
 		}
-		.down {
+		&.down {
 			top: 50%;
 			right: 0;
 			bottom: 0;
@@ -117,13 +117,13 @@
 			font-family: serif;
 		}
 		.icon-prev {
-			.before {
+			&:before {
 				content: '\2039';
 				// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
 		      	}
 		}
 		.icon-next {
-			.before {
+			&:before {
 				content: '\203a';
 				// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
 		      	}
