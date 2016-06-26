@@ -3,49 +3,49 @@
 -----------------------------------------------  */
 
 .ticker-headline {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding: 15px 0;
-  margin: 0;
-  font-size: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 15px 0;
+	margin: 0;
+	font-size: 18px;
 }
 
 .carousel.vertical .carousel-inner {
-  height: 100%;
-  width: auto;
-  > .item {
-    width: auto;
-    padding-right: 50px;
-    transition: 0.6s ease-in-out top;
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      transition: 0.6s ease-in-out;
-      &.next,
-      &.active.right {
-        transform: translate3d(0, 100%, 0);
-        top: 0;
-      }
-      &.prev,
-      &.active.left {
-        transform: translate3d(0, -100%, 0);
-        top: 0;
-      }
-      &.next.left,
-      &.prev.right,
-      &.active {
-        transform: translate3d(0, 0, 0);
-        top: 0;
-      }
-    }
-  }
-  > .active,
-  > .next,
-  > .prev {
-    display: block;
-  }
-  > .active {
-    top: 0;
-  }
+	height: 100%;
+	width: auto;
+	> .item {
+		width: auto;
+		padding-right: 50px;
+		transition: 0.6s ease-in-out top;
+		@media all and (transform-3d), (-webkit-transform-3d) {
+			transition: 0.6s ease-in-out;
+			&.next,
+			&.active.right {
+				transform: translate3d(0, 100%, 0);
+				top: 0;
+			}
+			&.prev,
+			&.active.left {
+				transform: translate3d(0, -100%, 0);
+				top: 0;
+			}
+			&.next.left,
+			&.prev.right,
+			&.active {
+				transform: translate3d(0, 0, 0);
+				top: 0;
+			}
+    		}
+	}
+	> .active,
+	> .next,
+	> .prev {
+		display: block;
+	}
+	> .active {
+		top: 0;
+	}
   > .next,
   > .prev {
     position: absolute;

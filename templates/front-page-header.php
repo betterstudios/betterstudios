@@ -11,7 +11,7 @@
 		</div>
 		<div class="right-side">
 			<div class="container">
-				<div class="carousel vertical slide">
+				<div id="header-vertical-carousel" class="carousel vertical slide">
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
 							<p class="ticker-headline">
@@ -29,6 +29,15 @@
 							</p>
 						</div>
 					</div>
+					<!-- Controls -->
+					<a class="up carousel-control" href="header-vertical-carousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="down carousel-control" href="header-vertical-carousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
 			</div>
 		</div>
