@@ -14,17 +14,17 @@
 				<div id="header-vertical-carousel" class="carousel vertical slide">
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<p class="ticker-headline">
+							<p class="ticker-headline wow flipInX" data-wow-delay="0.5s">
 								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
 							</p>
 						</div>
 						<div class="item">
-							<p class="ticker-headline">
+							<p class="ticker-headline wow flipInX" data-wow-delay="0.5s">
 								<a href="#"><strong>Hi</strong>... I am also an avacado.</a>
 							</p>
 						</div>
 						<div class="item">
-							<p class="ticker-headline">
+							<p class="ticker-headline wow flipInX" data-wow-delay="0.5s">
 								<a href="#"><strong>Hi</strong>... I am an avacado too.</a>
 							</p>
 						</div>
