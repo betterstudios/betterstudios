@@ -1,4 +1,4 @@
-<section id="navigation" class="section-navigation">
+<section id="navigation" class="section-navigation no-padding">
     <div class="row">
         <a class="logo" href="#" style="text-decoration: none; text-transform: uppercase;"><?php bloginfo('name'); ?></a>
 
