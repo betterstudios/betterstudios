@@ -30,11 +30,11 @@
 						</div>
 					</div>
 					<!-- Controls -->
-					<a class="up carousel-control" href="header-vertical-carousel" role="button" data-slide="prev">
+					<a class="up carousel-control" href="#header-vertical-carousel" role="button" data-slide="prev">
 						<span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
-					<a class="down carousel-control" href="header-vertical-carousel" role="button" data-slide="next">
+					<a class="down carousel-control" href="#header-vertical-carousel" role="button" data-slide="next">
 						<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
