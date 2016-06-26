@@ -10,6 +10,14 @@
 			</div>
 		</div>
 		<div class="right-side">
+			<div class="container">
+				<div class="carousel vertical slide">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </header>

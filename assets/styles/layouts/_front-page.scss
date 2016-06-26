@@ -78,6 +78,22 @@
 				position: relative;
 				z-index: 3;
 				text-align: right;
+				width: 100%;
+				@media(min-width:768px) {
+					width: 50%;
+					float: right;
+				}
+				min-height: 100vh;
+				.container {
+					.carousel {
+						.carousel-inner {
+							.item{
+								min-height: 100vh;
+								background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
+							}
+						}
+					}
+				}
 			}
 		}
 	}
