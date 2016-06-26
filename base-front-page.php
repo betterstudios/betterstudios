@@ -30,6 +30,7 @@ use Roots\Sage\Wrapper;
 		<?php
 			do_action('get_footer');
 			get_template_part('templates/footer');
+			get_template_part('templates/navigation-javascript');
 			wp_footer();
 		?>
 		<?php get_template_part('templates/remarketing'); ?>
