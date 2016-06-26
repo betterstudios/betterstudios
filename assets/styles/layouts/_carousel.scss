@@ -3,12 +3,14 @@
 -----------------------------------------------  */
 
 .ticker-headline {
+	position: absolute;
+	width: 100%;
 	overflow: hidden;
+	text-align: center;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	padding: 15px 0;
 	margin: 0;
-	font-size: 18px;
+	font-size: 1em;
 }
 
 .carousel.vertical .carousel-inner {
@@ -46,89 +48,81 @@
 	> .active {
 		top: 0;
 	}
-  > .next,
-  > .prev {
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-  > .next {
-    top: 100%;
-  }
-  > .prev {
-    top: -100%;
-  }
-  > .next.left,
-  > .prev.right {
-    top: 0;
-  }
-  > .active.left {
-    top: -100%;
-  }
-  > .active.right {
-    top: 100%;
-  }
+	> .next,
+	> .prev {
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	> .next {
+		top: 100%;
+	}
+	> .prev {
+		top: -100%;
+	}
+	> .next.left,
+	> .prev.right {
+		top: 0;
+	}
+	> .active.left {
+		top: -100%;
+	}
+	> .active.right {
+		top: 100%;
+	}
 }
 
 .carousel.vertical {
-  .carousel-control {
-    left: auto;
-    width: 50px;
-    &.up {
-      top: 0;
-      right: 0;
-      bottom: 50%;
-    }
-    &.down {
-      top: 50%;
-      right: 0;
-      bottom: 0;
-    }
-    // Toggles
-    .icon-prev,
-    .icon-next,
-    .glyphicon-chevron-up,
-    .glyphicon-chevron-down {
-      position: absolute;
-      top: 50%;
-      z-index: 5;
-      display: inline-block;
-    }
-    .icon-prev,
-    .glyphicon-chevron-up {
-      left: 50%;
-      margin-left: -10px;
-      top: 50%;
-      margin-top: -10px;
-    }
-    .icon-next,
-    .glyphicon-chevron-down {
-      left: 50%;
-      margin-left: -10px;
-      top: 50%;
-      margin-top: -10px;
-    }
-    .icon-up,
-    .icon-down {
-      width: 20px;
-      height: 20px;
-      //margin-top: -10px;
-      line-height: 1;
-      font-family: serif;
-    }
-    .icon-prev {
-      &:before {
-        content: '\2039';
-        // SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
-
-      }
-    }
-    .icon-next {
-      &:before {
-        content: '\203a';
-        // SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
-
-      }
-    }
-  }
+	.carousel-control {
+		left: auto;
+		width: 50px;
+		&.up {
+			top: 0;
+			right: 0;
+			bottom: 50%;
+		}
+		&.down {
+			top: 50%;
+			right: 0;
+			bottom: 0;
+		}
+		// Toggles
+		.icon-prev, .icon-next, .glyphicon-chevron-up, .glyphicon-chevron-down {
+			position: absolute;
+			top: 50%;
+			z-index: 5;
+			display: inline-block;
+		}
+		.icon-prev, .glyphicon-chevron-up {
+			left: 50%;
+			margin-left: -10px;
+			top: 50%;
+			margin-top: -10px;
+		}
+		.icon-next, .glyphicon-chevron-down {
+			left: 50%;
+			margin-left: -10px;
+			top: 50%;
+			margin-top: -10px;
+		}
+		.icon-up, .icon-down {
+			width: 20px;
+			height: 20px;
+			//margin-top: -10px;
+			line-height: 1;
+			font-family: serif;
+		}
+		.icon-prev {
+			&:before {
+				content: '\2039';
+				// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
+		      	}
+		}
+		.icon-next {
+			&:before {
+				content: '\203a';
+				// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
+		      	}
+		}
+	}
 }
