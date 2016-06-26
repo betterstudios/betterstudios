@@ -100,11 +100,6 @@
 		@include animation(rubber-band ease-in-out 1s);
 	}
 }
-@media only screen and (max-width: 766px) {
-  	.section-navigation {
-    		padding-top: 25px;
-  	}
-}
 
 .open-nav {
 	max-height: 400px !important;
