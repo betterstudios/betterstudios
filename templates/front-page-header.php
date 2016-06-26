@@ -20,12 +20,12 @@
 						</div>
 						<div class="item">
 							<p class="ticker-headline">
-								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
+								<a href="#"><strong>Hi</strong>... I am also an avacado.</a>
 							</p>
 						</div>
 						<div class="item">
 							<p class="ticker-headline">
-								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
+								<a href="#"><strong>Hi</strong>... I am an avacado too.</a>
 							</p>
 						</div>
 					</div>
