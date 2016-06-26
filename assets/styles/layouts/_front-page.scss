@@ -82,8 +82,7 @@
 				width: 100%;
 				min-height: 100vh;
 				@media(min-width:768px) {
-					position: absolute;
-					top: 0px;
+					position: relative;
 					width: 50%;
 					float: right;
 					z-index: 4;
