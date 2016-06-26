@@ -3,10 +3,10 @@
 		<div class="left-side">
 			<div class="underlay"> </div>
 			<div class="header-content-inner">
-				<h1><?php bloginfo( 'name' ); ?></h1>
-				<hr>
-				<p><?php bloginfo( 'description' ); ?></p>
-				<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay=".1s">Find Out More</a>
+				<h1 class="wow fadeInDown" data-wow-delay="0.5s"><?php bloginfo( 'name' ); ?></h1>
+				<hr class="wow fadeInRight" data-wow-delay="1.0s">
+				<p class="wow fadeInUp" data-wow-delay="1.5s"><?php bloginfo( 'description' ); ?></p>
+				<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Find Out More</a>
 			</div>
 		</div>
 		<div class="right-side">
