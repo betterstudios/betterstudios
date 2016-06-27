@@ -96,9 +96,9 @@
 									width: 50vw;
 								}
 								min-height: 100vh;
-								background-color: rgba($color-light,1);
+								background-color: rgba($color-light,0);
 								@media(min-width:768px) {
-									background-color: rgba($color-light,0);
+									background-color: rgba($color-light,1);
 								}
 								background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
 								background-size: 50%;

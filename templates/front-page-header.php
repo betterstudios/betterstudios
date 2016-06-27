@@ -16,19 +16,25 @@
 							<p class="ticker-headline wow flipInX" data-wow-delay="1.5s">
 								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
 							</p>
-							<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Purchase</a>
+							<div class="shop">
+								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Purchase</a>
+							</div>
 						</div>
 						<div class="item">
 							<p class="ticker-headline wow flipInX" data-wow-delay="1.5s">
 								<a href="#"><strong>Hi</strong>... I am also an avacado.</a>
 							</p>
-							<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Purchase</a>
+							<div class="shop">
+								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Purchase</a>
+							</div>
 						</div>
 						<div class="item">
 							<p class="ticker-headline wow flipInX" data-wow-delay="1.5s">
 								<a href="#"><strong>Hi</strong>... I am an avacado too.</a>
 							</p>
-							<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Purchase</a>
+							<div class="shop">
+								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Purchase</a>
+							</div>
 						</div>
 					</div>
 					<!-- Indicators -->
