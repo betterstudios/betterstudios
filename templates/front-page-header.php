@@ -3,7 +3,10 @@
 		<div class="left-side">
 			<div class="underlay"> </div>
 			<div class="header-content-inner">
-				<h1 class="wow fadeInDown" data-wow-delay="0.5s"><?php bloginfo( 'name' ); ?></h1>
+				<div class="logo">
+					<div class="icon"></div>
+					<div class="text"><h1 class="wow fadeInDown" data-wow-delay="0.5s"><?php bloginfo( 'name' ); ?></h1></div>
+				</div>
 				<hr class="wow fadeInRight" data-wow-delay="1.0s">
 				<p class="wow fadeInUp" data-wow-delay="1.5s"><?php bloginfo( 'description' ); ?></p>
 			</div>
