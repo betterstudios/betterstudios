@@ -187,17 +187,18 @@
 
 	.section-about {
 		.photo {
-			border: 2px color $color-brown;
+			margin: 2em;
+			border: 2px solid $color-brown;
 			border-radius: 100%;
 		}
 	}
 
 	.bg-primary {
-	    background-color: $color-blue;
+	    background-color: $color-grey;
 	}
 	
 	.bg-dark {
-	    color: $color-light;
+	    color: $color-brown;
 	    background-color: #222;
 	}
 	
