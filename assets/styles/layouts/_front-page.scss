@@ -157,8 +157,13 @@
 	    line-height: 1.5;
 	}
 	
-	.padded {
-		padding: 2em 0;
+	.viewport-centered {
+		position: absolute;
+		height: 100vh;
+		top: 50%;
+		left: 50%;
+		margin-top: translateY(-50%);
+		margin-left: translateX(-50%);
 	}
 
 	.section-introduction {
