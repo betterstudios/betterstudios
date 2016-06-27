@@ -64,6 +64,8 @@
 						}
 						.text {
 							text-shadow: 1px 1px 1px $color-grey;
+							background-color: $color-brown;
+							color: rgba($color-light,0);
 						}
 					}
 					h1 {
