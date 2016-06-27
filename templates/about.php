@@ -1,8 +1,8 @@
-<section id="about" class="section-about bg-dark viewport">
+<section id="about" class="section-about viewport">
 	<div class="container-fluid viewport-centered">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading">About</h2>
+				<h2 class="section-heading">About <strong>Me</strong></h2>
 				<hr class="primary">
 				<img class="photo" src="https://s3.amazonaws.com/betterstudios/chris-dewberry-256x256px.png">
 				<hr class="primary">

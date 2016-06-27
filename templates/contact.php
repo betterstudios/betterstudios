@@ -1,10 +1,9 @@
-<section id="contact">
-	<div class="container">
+<section id="contact" class="section-contact viewport">
+	<div class="container viewport-centered">
 		<div class="row wow fadeIn" data-wow-delay="0.5s">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<h2 class="section-heading">문의사항 <br>Let's Get In Touch!</h2>
+				<h2 class="section-heading">Let's Get In Touch!</h2>
 				<hr class="primary">
-				<p>더 궁금한 정보가 있으시면, 전화, 카카오톡, 페이스북 메신저 또는 이메일로 연락 주시기 바랍니다.</p>
 				<p>Need further information? Please contact us via telephone/KaKao, Facebook Messenger, YouTube, or email.</p>
 			</div>
 			<div class="col-lg-2 col-lg-offset-2 text-center">
