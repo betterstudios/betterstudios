@@ -70,9 +70,6 @@
 					    	text-transform: lowercase;
 						color: $color-dark;
 					}
-					a {
-						margin: 2em auto;
-					}
 				}
 			}
 			.right-side {
@@ -100,10 +97,19 @@
 								}
 								min-height: 100vh;
 								background-color: rgba($color-light,1);
+								@media(min-width:768px) {
+									background-color: rgba($color-light,0);
+								}
 								background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
 								background-size: 50%;
 								background-repeat: no-repeat;
 								background-position: 50% 25%;
+							}
+							.shop {
+								position: absolute;
+								top: 75%;
+								width: 100%;
+								text-align: center;
 							}
 						}
 					}
