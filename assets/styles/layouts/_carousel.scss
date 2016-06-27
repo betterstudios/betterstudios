@@ -18,6 +18,11 @@
 }
 
 .carousel.vertical .carousel-indicators {
+	position: absolute;
+	left: 10%;
+	bottom: 50%;
+	transform: rotate(90deg);
+	transform-origin: center center 0;
 		li {
 			display: inline-block;
 			width: 10px;
