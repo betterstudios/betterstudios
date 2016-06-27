@@ -190,26 +190,31 @@
 			width: 100px;
 			height: 100px;
 			margin: 2em;
-			border: 2px solid $color-brown;
+			border: 2px solid $color-grey;
 			border-radius: 100%;
 		}
 	}
 
+	.section-contact {
+		color: $color-light;
+		a {
+			color: $color-light;
+		}
+		a:hover {
+			color: $color-blue ;
+		}
+	}
+
 	.bg-primary {
-	    background-color: $color-grey;
+	    	background-color: $color-grey;
 	}
 	
 	.bg-dark {
-	    color: $color-brown;
-	    background-color: #222;
+	    	background-color: $color-grey;
 	}
 	
 	.text-faded {
-	    color: rgba(255,255,255,.7);
-	}
-	
-	.white-icons a {
-	    color: rgba(255,255,255,.9);
+	    	color: rgba($color-light, 0.7);
 	}
 	
 	aside {
