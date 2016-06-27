@@ -39,9 +39,9 @@
 	.item {
 		width: auto;
 		padding-right: 50px;
-		transition: 1.5s ease-out top;
+		transition: 1s ease-out top;
 		@media all and (transform-3d), (-webkit-transform-3d) {
-			transition: 1.5s ease-out;
+			transition: 1s ease-out;
 			&.next,
 			&.active.right {
 				transform: translate3d(0, 100%, 0);
