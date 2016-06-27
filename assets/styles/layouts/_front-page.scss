@@ -157,8 +157,12 @@
 	    line-height: 1.5;
 	}
 	
-	.viewport-centered {
+	.viewport {
 		height: 100vh;
+	}
+
+	.viewport-centered {
+		position: absolute;
 		top: 50%;
 		left: 50%;
 		margin-top: translateY(-50%);

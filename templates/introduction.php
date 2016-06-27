@@ -1,5 +1,5 @@
-<section id="introduction" class="section-introduction bg-primary viewport-centered">
-	<div class="container-fluid">
+<section id="introduction" class="section-introduction bg-primary viewport">
+	<div class="container-fluid viewport-centered">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<h2 class="section-heading">Body, Mind, and <strong>Studio<strong></h2>
