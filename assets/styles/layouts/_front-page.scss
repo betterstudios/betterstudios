@@ -124,8 +124,8 @@
 		}
 	}
 	
-	.padded {
-		padding: 2em 0;
+	h1, h2, h3, h4, h5, h6 {
+	    font-family: 'Raleway';
 	}
 
 	hr {
@@ -150,14 +150,6 @@
 	    color: #eb3812;
 	}
 	
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-	    font-family: 'Raleway';
-	}
 	
 	p {
 	    margin-bottom: 20px;
@@ -165,6 +157,19 @@
 	    line-height: 1.5;
 	}
 	
+	.padded {
+		padding: 2em 0;
+	}
+
+	.section-introduction {
+		h2 {
+			text-transform: uppercase;
+		}
+		strong {
+			font-weight: 900;
+		}
+	}
+
 	.bg-primary {
 	    background-color: $color-blue;
 	}
