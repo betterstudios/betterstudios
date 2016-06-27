@@ -158,15 +158,15 @@
 	}
 	
 	.viewport {
+		position: relative;
+		display: table;
 		height: 100vh;
 	}
 
 	.viewport-centered {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-top: translateY(-50%);
-		margin-left: translateX(-50%);
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 	.section-introduction {
