@@ -25,7 +25,7 @@
 								<a href="#"><strong>Hi</strong>... I am also an avacado.</a>
 							</p>
 							<div class="shop">
-								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow bounceIn" data-wow-delay="2s">Purchase</a>
+								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow flipInX" data-wow-delay="3s">Purchase</a>
 							</div>
 						</div>
 						<div class="item">
