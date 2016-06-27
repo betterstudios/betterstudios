@@ -17,15 +17,27 @@
 	margin: 0;
 }
 
+.carousel.vertical .carousel-indicators {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	border: 1px solid $color-grey;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: transparent;
+}
+
 .carousel.vertical .carousel-inner {
 	height: 100%;
 	width: auto;
 	.item {
 		width: auto;
 		padding-right: 50px;
-		transition: 0.6s ease-in-out top;
+		transition: 1.5s ease-out top;
 		@media all and (transform-3d), (-webkit-transform-3d) {
-			transition: 0.6s ease-in-out;
+			transition: 1.5s ease-out;
 			&.next,
 			&.active.right {
 				transform: translate3d(0, 100%, 0);
