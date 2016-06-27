@@ -106,8 +106,16 @@
 								background-position: 50% 25%;
 							}
 							.shop {
-								position: relative;
-								margin: 0 auto;
+								position: absolute;
+								top: 45%;
+								width: 100%;
+								text-align: center;
+								@media(min-width:768px) {
+									position: relative;
+									top: 50%;
+									width: 50%;
+									text-align: center;
+								}
 							}
 						}
 					}
