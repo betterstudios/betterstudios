@@ -18,18 +18,22 @@
 }
 
 .carousel.vertical .carousel-indicators {
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	margin: 1px;
-	text-indent: -999px;
-	border: 1px solid $color-grey;
-	border-radius: 10px;
-	cursor: pointer;
-	background-color: transparent;
+	ol {
+		li {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin: 1px;
+			text-indent: -999px;
+			border: 1px solid $color-grey;
+			border-radius: 10px;
+			cursor: pointer;
+			background-color: transparent;
+		}
+	}
 }
-
-.carousel.vertical .carousel-inner {
+	
+	.carousel.vertical .carousel-inner {
 	height: 100%;
 	width: auto;
 	.item {
