@@ -169,12 +169,26 @@
 		vertical-align: middle;
 	}
 
+	.section-navigation {
+		a {
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+	}
+
 	.section-introduction {
 		h2 {
 			text-transform: uppercase;
 		}
 		strong {
 			font-weight: 900;
+		}
+	}
+
+	.section-about {
+		.photo {
+			border: 2px color $color-brown;
+			border-radius: 100%;
 		}
 	}
 

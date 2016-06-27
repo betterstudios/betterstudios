@@ -22,10 +22,6 @@ use Roots\Sage\Wrapper;
 		?>
 		<?php get_template_part('templates/introduction'); ?>
 		<?php get_template_part('templates/about'); ?>
-		<?php get_template_part('templates/classes'); ?>
-		<?php get_template_part('templates/ribbon'); ?>
-		<?php get_template_part('templates/teachers'); ?>
-		<?php get_template_part('templates/pricing'); ?>
 		<?php get_template_part('templates/contact'); ?>
 		<?php
 			do_action('get_footer');
