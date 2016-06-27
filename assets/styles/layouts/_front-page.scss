@@ -26,7 +26,7 @@
 			text-align: center;
 			.left-side {
 				position: relative;
-				z-index: 4;
+				z-index: 3;
 				width: 100%;
 				min-height: 100vh;
 				@media(min-width:768px) {
@@ -78,7 +78,7 @@
 			.right-side {
 				position: absolute;
 				top: 0;
-				z-index: 3;
+				z-index: 4;
 				width: 100%;
 				min-height: 100vh;
 				@media(min-width:768px) {
