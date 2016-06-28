@@ -211,7 +211,6 @@
                 z-index: 1;
                 width: 100%;
                 min-height: 100vh;
-		padding: 4em 0;
                 text-align: center;
                 color: $color-dark;
                 background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
@@ -229,11 +228,17 @@
 			left: 0;
 			z-index: 2;
 			background-color: rgba($color-light,0.9);
+			padding: 4em 0;
 			a {
 				color: $color-dark;
+				text-decoration: none;
+				font-family: Lato;
+				font-weight: 100;
+				transition: all ease-out 1.5s 0.5s forwards;
 			}
 			a:hover {
 				color: $color-dark;
+				font-weight: 900;
 			}
 		}
 	}
