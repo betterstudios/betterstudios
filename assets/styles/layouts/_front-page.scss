@@ -208,8 +208,9 @@
 
 	.section-footer {
 		@include overlay($color-light, 0.9);
-		p, h1, h2, h3 {
+		a, p, h1, h2, h3 {
 			text-align: center;
+			color: $color-light;
 		}
 	}
 

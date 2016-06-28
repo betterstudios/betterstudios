@@ -3,13 +3,13 @@
         <div class="container-fluid viewport-center">
 		<div class="row">
 	                <div class="col-md-3">
-	                        <h2 class="wow bounceIn" data-wow-delay=".1s">SITE MAP</h2>
+	                        <h2 class="wow bounceIn" data-wow-delay=".1s">Site <strong>Map</strong></h2>
 	                        <p><a href="<?php echo get_site_url(); ?>">Home</a></p>
 	                        <p><a href="<?php echo get_site_url(); ?>/blog">Blog</a></p>
 	                        <p><a href="<?php echo get_site_url(); ?>/faq">FAQ</a></p>
 	                </div>
 	                <div class="col-md-3">
-	                        <h2 class="wow bounceIn" data-wow-delay=".1s">RECENT POSTS</h2>
+	                        <h2 class="wow bounceIn" data-wow-delay=".1s">Recent <strong>Posts</strong></h2>
 				<?php
 					$args = array( 'numberposts' => '5', 'post_status' => 'publish' );
 					$recent_posts = wp_get_recent_posts( $args );
