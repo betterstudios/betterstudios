@@ -230,7 +230,7 @@
 			background-color: rgba($color-light,0.9);
 			padding: 4em 0;
 			.notice {
-				padding: 4em 0;
+				padding: 2em 0;
 			}
 			a {
 				color: $color-dark;
@@ -238,7 +238,7 @@
 				font-weight: 100;
 				text-decoration: none;
 				text-tranformation: uppercase;
-				transition: all ease-out 1.5s 0.5s forwards;
+				transition: all 1.5s ease-out 0.5s;
 			}
 			a:hover {
 				color: $color-dark;
