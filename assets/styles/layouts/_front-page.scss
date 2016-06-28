@@ -132,11 +132,12 @@
 	    	max-width: 4em;
 	    	border-color: $color-grey;
 	    	border-width: 0.25em;
-		.light {
-	    		border-color: $color-light;
-		}
 	}
 	
+		hr.light {
+	    		border-color: $color-light;
+		}
+
 	a {
 	    color: $color-blue;
 	    -webkit-transition: all .35s;
@@ -160,6 +161,7 @@
 		position: relative;
 		display: table;
 		height: 100vh;
+		width: 100%;
 	}
 
 	.viewport-centered {
@@ -201,6 +203,12 @@
 		}
 		a:hover {
 			color: $color-blue ;
+		}
+	}
+
+	.section-footer {
+		p, h1, h2, h3 {
+			text-align: center;
 		}
 	}
 
