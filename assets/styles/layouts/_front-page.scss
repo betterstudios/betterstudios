@@ -139,7 +139,7 @@
 		}
 
 	a {
-	    color: $color-blue;
+	    color: $color-grey;
 	    -webkit-transition: all .35s;
 	    -moz-transition: all .35s;
 	    transition: all .35s;
@@ -202,7 +202,7 @@
 			color: $color-light;
 		}
 		a:hover {
-			color: $color-blue ;
+			color: $color-grey;
 		}
 	}
 
@@ -229,11 +229,15 @@
 			z-index: 2;
 			background-color: rgba($color-light,0.9);
 			padding: 4em 0;
+			.notice {
+				padding: 4em 0;
+			}
 			a {
 				color: $color-dark;
-				text-decoration: none;
 				font-family: Lato;
 				font-weight: 100;
+				text-decoration: none;
+				text-tranformation: uppercase;
 				transition: all ease-out 1.5s 0.5s forwards;
 			}
 			a:hover {
@@ -272,7 +276,7 @@
 	}
 	
 	.text-primary {
-	    color: $color-blue;
+	    color: $color-grey;
 	}
 	
 	.no-gutter > [class*=col-] {
@@ -336,7 +340,7 @@
 	.btn-primary {
 	    border-color: $color-light;
 	    color: $color-light;
-	    background-color: $color-blue;
+	    background-color: $color-grey;
 	    -webkit-transition: all .35s;
 	    -moz-transition: all .35s;
 	    transition: all .35s;
@@ -377,12 +381,12 @@
 	.btn-primary.disabled.active,
 	.btn-primary[disabled].active,
 	fieldset[disabled] .btn-primary.active {
-	    border-color: $color-blue;
-	    background-color: $color-blue;
+	    border-color: $color-grey;
+	    background-color: $color-grey;
 	}
 	
 	.btn-primary .badge {
-	    color: $color-blue;
+	    color: $color-grey;
 	    background-color: $color-light;
 	}
 	
