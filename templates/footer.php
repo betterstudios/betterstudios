@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer id="footer" class="section-footer viewport">
-        <div class=" viewport-center">
+        <div class="container-fluid viewport-center">
 		<div class="row">
 	                <div class="col-md-3">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">SITE MAP</h2>

@@ -29,7 +29,6 @@ use Roots\Sage\Wrapper;
 			get_template_part('templates/navscripts');
 			wp_footer();
 		?>
-		<?php get_template_part('templates/remarketing'); ?>
 		</div>
 	</body>
 </html>

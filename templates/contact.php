@@ -3,7 +3,7 @@
 		<div class="row wow fadeIn" data-wow-delay="0.5s">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<h2 class="section-heading">Contact <strong>Me</strong></h2>
-				<hr class="primary">
+				<hr class="light">
 				<p>Need further information? Please contact me via telephone/KaKao, Facebook Messenger, YouTube, or email.</p>
 			</div>
 			<div class="col-lg-2 col-lg-offset-2 text-center">
@@ -19,7 +19,7 @@
 				<p><a href="mailto:info@capoeirastudio.com"><i class="fa fa-envelope-o fa-3x wow flipInX" data-wow-delay="1.0s"></i></a></p>
 			</div>
 			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<hr class="primary">
+				<hr class="light">
 			</div>
 		</div>
 	</div>

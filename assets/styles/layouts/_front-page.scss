@@ -129,13 +129,12 @@
 	}
 
 	hr {
-	    max-width: 4em;
-	    border-color: $color-blue;
-	    border-width: 0.25em;
-	}
-	
-	hr.light {
-	    border-color: $color-light;
+	    	max-width: 4em;
+	    	border-color: $color-grey;
+	    	border-width: 0.25em;
+		.light {
+	    		border-color: $color-light;
+		}
 	}
 	
 	a {
