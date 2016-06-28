@@ -1,7 +1,7 @@
 <!-- Footer -->
-<footer id="sitemap" class="section-footer">
-        <div class="container-fluid viewport">
-		<div class="row viewport-center">
+<footer id="sitemap" class="section-footer viewport">
+        <div class="container-fluid viewport-center">
+		<div class="row">
 	                <div class="col-md-4">
 	                        <h2 class="wow bounceIn" data-wow-delay=".1s">Site <strong>Map</strong></h2>
 	                        <p><a href="<?php echo get_site_url(); ?>">Home</a></p>
@@ -26,6 +26,13 @@
 	                        <p><a href="http://eepurl.com/b3Y1Hz">Subscribe</a></p>
 	                        <p><a href="http://capoeirastudio.us13.list-manage.com/unsubscribe?u=3db435ce999565383d510d2cd&id=64f83024b3">Unsubscribe</a></p>
 	                </div>
+                </div>
+		<div class="row">
+                        <div class="col-md-4 col-md-offset-4 text-center">
+                                <h5 id="featured-video-heading" class="section-heading">Copyright (c) 2016 Better Studios. All Rights Reserved.</h5>
+                                <hr id="featured-hr">
+                                </a>
+                        </div>
                 </div>
         </div>
 </footer>

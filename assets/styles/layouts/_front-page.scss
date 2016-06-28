@@ -207,12 +207,21 @@
 	}
 
 	.section-footer {
+                position: relative;
+                z-index: 1;
+                width: 100%;
+                min-height: 100vh;
 		padding: 4em 0;
+                text-align: center;
+                color: $color-dark;
+                background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
+                background-color: rgba($color-light,1);
+                background-position: center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                background-size: cover;
+                -o-background-size: cover;
 		@include overlay($color-light, 0.9);
-		a, p, h1, h2, h3 {
-			text-align: center;
-			color: $color-dark;
-		}
 	}
 
 	.bg-primary {

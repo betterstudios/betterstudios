@@ -55,49 +55,44 @@
 	nav {
 	  	float: right;
 	  	width: 60%;
-	}
-	@media only screen and (max-width: 766px) {
-	  nav {
-	    width: 100%;
-	  }
-	}
-	nav ul {
-	  list-style: none;
-	  overflow: hidden;
-	  text-align: right;
-	  float: right;
-	}
-	@media only screen and (max-width: 766px) {
-	  nav ul {
-	    padding-top: 10px;
-	    margin-bottom: 22px;
-	    float: left;
-	    text-align: center;
-	    width: 100%;
-	  }
-	}
-	nav ul li {
-	  display: inline-block;
-	  margin-left: 35px;
-	  margin-left: 2.4325vw; 
-	  line-height: 1.5;
-	}
-	@media only screen and (max-width: 766px) {
-	  nav ul li {
-	    width: 100%;
-	    padding: 7px 0;
-	    margin: 0;
-	  }
-	}
-	nav ul a {
-		color: $color-light;
-		text-transform: uppercase;
-		font-family: Lato;
-		font-size: 12px;
-		font-weight: 900;
-	}
-	nav ul a:hover {
-		@include animation(rubber-band ease-in-out 1s);
+		ul {
+			list-style: none;
+			overflow: hidden;
+			text-align: right;
+			float: right;
+			margin-top: 1em;
+			a {
+				color: $color-light;
+				text-transform: uppercase;
+				font-family: Lato;
+				font-size: 12px;
+				font-weight: 900;
+			}
+			a:hover {
+				@include animation(rubber-band ease-in-out 1s);
+			}
+			@media only screen and (max-width: 766px) {
+				padding-top: 10px;
+				margin-bottom: 22px;
+				float: left;
+				text-align: center;
+				width: 100%;
+				li {
+					display: inline-block;
+					margin-left: 35px;
+					margin-left: 2.4325vw; 
+					line-height: 1.5;
+					@media only screen and (max-width: 766px) {
+						width: 100%;
+						padding: 7px 0;
+						margin: 0;
+					}
+				}
+			}
+		}
+		@media only screen and (max-width: 766px) {
+			width: 100%;
+		}
 	}
 }
 
