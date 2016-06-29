@@ -103,11 +103,11 @@
 								background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
 								background-size: 50%;
 								background-repeat: no-repeat;
-								background-position: 50% 25%;
+								background-position: 50% 20%;
 								a {
 									display: block;
 									width: 200px;
-									margin: 1em auto;
+									margin: 2em auto;
 								}
 							}
 						}
@@ -216,7 +216,7 @@
 		.second-layer {
 			position: absolute;
 			width: 100%;
-			min-height: 100%;
+			min-height: 100vh;
 			top: 0;
 			left: 0;
 			z-index: 2;
