@@ -127,9 +127,9 @@
 	    	border-width: 0.25em;
 	}
 	
-		hr.light {
-	    		border-color: $color-light;
-		}
+	hr.light {
+		border-color: $color-light;
+	}
 
 	a {
 	    color: $color-grey;
@@ -161,6 +161,7 @@
 		position: relative;
 		display: table-cell;
 		vertical-align: middle;
+		padding: 2em 0;
 	}
 
 	.section-navigation {
