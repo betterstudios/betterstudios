@@ -12,6 +12,7 @@
                 <li><a href="#introduction">introduction</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#contact">contact</a></li>
+                <li><a href="#sitemap">sitemap</a></li>
             </ul>
         </nav>
     </div> <!-- end row -->
