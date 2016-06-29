@@ -71,12 +71,6 @@
 			a:hover {
 				@include animation(rubber-band ease-in-out 1s);
 			}
-			@media only screen and (max-width: 766px) {
-				padding-top: 10px;
-				margin-bottom: 22px;
-				float: left;
-				text-align: center;
-				width: 100%;
 				li {
 					display: inline;
 					margin-left: 35px;
@@ -88,6 +82,12 @@
 						margin: 0;
 					}
 				}
+			@media only screen and (max-width: 766px) {
+				padding-top: 10px;
+				margin-bottom: 22px;
+				float: left;
+				text-align: center;
+				width: 100%;
 			}
 		}
 		@media only screen and (max-width: 766px) {

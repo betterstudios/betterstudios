@@ -7,7 +7,7 @@
 		                        <h2 class="wow flipInX" data-wow-delay="1.0s">Site <strong>Map</strong></h2>
 		                        <p><a href="<?php echo get_site_url(); ?>">Home</a></p>
 		                        <p><a href="<?php echo get_site_url(); ?>/blog">Blog</a></p>
-		                        <p><a href="<?php echo get_site_url(); ?>/faq">FAQ</a></p>
+		                        <p><a href="<?php echo get_site_url(); ?>/privacy-policy">Privacy Policy</a></p>
 		                </div>
 		                <div class="col-md-3">
 		                        <h2 class="wow flipInX" data-wow-delay="1.0s">Recent <strong>Posts</strong></h2>
@@ -33,7 +33,7 @@
 			<div class="row">
 	                        <div class="col-md-4 col-md-offset-4 text-center">
 	                                <h5 id="copyright" class="notice"><strong>Copyright</strong> (c) 2016 <strong>Better Studios</strong>. All Rights Reserved.</h5>
-	                                <h5 id="maintenance" class="notice">Maintained by <strong>Quilombola Engineering</strong>.</h5>
+	                                <h5 id="maintenance" class="notice">maintained by <strong>quilombola engineering</strong>.</h5>
 	                                <hr id="primary">
 	                                </a>
 	                        </div>
