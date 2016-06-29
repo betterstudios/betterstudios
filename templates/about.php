@@ -1,6 +1,6 @@
 <section id="about" class="section-about viewport">
 	<div class="container-fluid viewport-centered">
-		<div class="row">
+		<div class="row padded">
 			<div class="col-lg-12 text-center">
 				<h2 class="section-heading">About <strong>Me</strong></h2>
 				<hr class="primary">

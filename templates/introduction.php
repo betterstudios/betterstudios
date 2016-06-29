@@ -1,6 +1,6 @@
 <section id="introduction" class="section-introduction bg-primary viewport">
 	<div class="container-fluid viewport-centered">
-		<div class="row">
+		<div class="row padded">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<h2 class="section-heading">Body, Mind, and <strong>Studio<strong></h2>
 				<hr class="light">

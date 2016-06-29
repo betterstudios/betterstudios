@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer id="sitemap" class="section-footer viewport">
         <div class="container-fluid viewport-center">
-		<div class="second-layer">
+		<div class="second-layer padded">
 			<div class="row">
 		                <div class="col-md-3">
 		                        <h2 class="wow flipInX" data-wow-delay="1.0s">Site <strong>Map</strong></h2>

@@ -1,6 +1,6 @@
 <section id="contact" class="section-contact viewport bg-dark">
 	<div class="container viewport-centered">
-		<div class="row wow fadeIn" data-wow-delay="0.5s">
+		<div class="row padded wow fadeIn" data-wow-delay="0.5s">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<h2 class="section-heading">Contact <strong>Me</strong></h2>
 				<hr class="light">
