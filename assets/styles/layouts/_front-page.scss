@@ -10,7 +10,7 @@
 		min-height: 100vh;
 		text-align: center;
 		color: $color-dark;
-		background-image: url('https://s3.amazonaws.com/betterstudios/eye-of-horus-header.jpg');
+		background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
 		background-color: rgba($color-light,1);
 		background-position: center;
 		-webkit-background-size: cover;
@@ -104,17 +104,8 @@
 								background-size: 50%;
 								background-repeat: no-repeat;
 								background-position: 50% 25%;
-							}
-							.shop {
-								position: absolute;
-								top: 45%;
-								width: 100%;
-								text-align: center;
-								@media(min-width:768px) {
-									position: absolute;
-									top: 50%;
-									width: 100%;
-									text-align: center;
+								a {
+									margin: 2em 0;
 								}
 							}
 						}

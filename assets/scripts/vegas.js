@@ -9,7 +9,7 @@
 
 $(".front-page-header").vegas({
       timer: false,
-      delay: 5000,
+      delay: 4500,
       preload: true,
       overlay: 'https://s3.amazonaws.com/betterstudios/08.png',
       slides: [
@@ -23,7 +23,7 @@ $(".front-page-header").vegas({
 
 $(".section-footer").vegas({
       timer: false,
-      delay: 5000,
+      delay: 15000,
       preload: true,
       overlay: 'https://s3.amazonaws.com/betterstudios/08.png',
       slides: [
@@ -32,7 +32,7 @@ $(".section-footer").vegas({
         { src: "https://s3.amazonaws.com/betterstudios/kukui-nut-2000x1250px.png", valign: "30%", transition: "zoomOut" },
       ],
       animation: 'kenburnsUpLeft',
-      transitionDuration: 2000,
+      transitionDuration: 5000,
 });
 
 

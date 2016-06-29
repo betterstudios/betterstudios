@@ -15,26 +15,20 @@
 						<div class="item active">
 							<p class="ticker-headline wow flipInX" data-wow-delay="1.5s">
 								<a href="#"><strong>Hi</strong>... I am an avacado.</a>
-							</p>
-							<div class="shop">
 								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow flipInX" data-wow-delay="3s">Purchase</a>
-							</div>
+							</p>
 						</div>
 						<div class="item">
 							<p class="ticker-headline wow flipInX" data-wow-delay="1.5s">
 								<a href="#"><strong>Hi</strong>... I am also an avacado.</a>
-							</p>
-							<div class="shop">
 								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow flipInX" data-wow-delay="3s">Purchase</a>
-							</div>
+							</p>
 						</div>
 						<div class="item">
 							<p class="ticker-headline wow flipInX" data-wow-delay="1.5s">
 								<a href="#"><strong>Hi</strong>... I am an avacado too.</a>
-							</p>
-							<div class="shop">
 								<a href="#intro" class="btn btn-primary btn-xl page-scroll wow flipInX" data-wow-delay="3s">Purchase</a>
-							</div>
+							</p>
 						</div>
 					</div>
 					<!-- Indicators -->
