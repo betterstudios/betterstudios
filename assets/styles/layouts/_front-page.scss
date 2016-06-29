@@ -17,7 +17,7 @@
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
-		@include overlay($color-light, 0.8);
+		@include overlay($color-light, 0.7);
 		.header-content {
 			position: relative;
 			width: 100%;
@@ -237,12 +237,13 @@
 				font-family: Lato;
 				font-weight: 100;
 				text-decoration: none;
-				text-tranform: lowercase;
-				transition: all 3.5s ease-out 0.5s;
+				text-transform: lowercase;
+				transition: all ease-out  3.5s 0.5s;
 			}
 			a:hover {
 				color: $color-grey;
 				font-weight: 900;
+                        	transform: scale(0.9);
 			}
 		}
 	}
