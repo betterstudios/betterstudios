@@ -47,6 +47,10 @@ function setup() {
   // Use main stylesheet for visual editor
   // To add custom styles edit /assets/styles/layouts/_tinymce.scss
   add_editor_style(Assets\asset_path('styles/main.css'));
+
+  // Change Media Gallery URL
+  update_option( 'upload_url_path', 'https://s3.ap-northeast-2.amazonaws.com/eyegear/' );
+
 }
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
 

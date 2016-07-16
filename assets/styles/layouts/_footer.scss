@@ -2,111 +2,43 @@
 --Footer
 -----------------------------------------------  */
 
-.footer {
+.section-footer {
 	position: relative;
-	display: table;
+	z-index: 1;
 	width: 100%;
-	margin: 0 auto;
-	padding: 4em 0;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.1);
-	text-transform: uppercase;
-	color: $color-light;
-        font-family: Lato, Helvetica Neue, Arial, sans-serif;
-        font-size: 13px;
-        font-weight: 100;
-        font-style: normal;
-        line-height: 1.9em;
-        letter-spacing: 0.05em;
-	@include overlay($color-dark, 0.9);
-	.v-center {
-		display: table-cell;
-		vertical-align: middle;
-		position: relative;
-		z-index: 4;
-		padding: 0 5%;
-		.korean {
-        		letter-spacing: -0.02em;
-		}
-		.row {
-			padding: 1em 0;
-			.col-md-3 {
-				padding: 1em 0;
-			}
-		}
-		h1 {
-			@include animation(fade-in ease-in-out 2s 0.5s both);
-		}
-		img {
-			transition: all ease-out 4s;
-			width: 78px;
-		}
-		img:hover {
-			transform: scale(1.1);
-		}
-		#ebs-footer-logo {
-			width: 38px;
-			margin: 2em 0;
-		}
-		#featured-hr {
-			margin-bottom: 0;
-		}
-		#featured-video-heading {
-			margin-top: 10px;
-		}
-		p {
-			font-size: 90%;
-			@include animation(fade-in ease-in-out 2s 1s both);
-		}
-		h2 {
-			font-weight: 900;
-			font-size: 120%;
-			margin: 1.35em 0;
-			@include animation(fade-in ease-in-out 2s 1s both);
-		}
-		hr {
-			max-width: 50px;
-			border-color: $color-orange;
-			border-width: 3px;
-		}
-		span{
-			margin-bottom: 1em;
-		}
-		span:hover {
-			@include animation(rubber-band ease-in-out 3s);
+	min-height: 100vh;
+	text-align: center;
+	color: $color-dark;
+	background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
+	background-color: rgba($color-light,1);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	.second-layer {
+		position: absolute;
+		width: 100%;
+		min-height: 100vh;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		background-color: rgba($color-light,0.9);
+		padding: 4em 0;
+		.notice {
+			padding: 2em 0;
 		}
 		a {
-			text-decoration: none;
+			color: $color-dark;
+			font-family: Lato;
 			font-weight: 100;
-			color: $color-light;
+			text-decoration: none;
+			text-transform: lowercase;
+			transition: all ease-out 3.5s 0.5s;
 		}
-		a:hover { 
-			color: $color-orange;
+		a:hover {
+			color: $color-grey;
+			transform: scale(0.9);
 		}
-	}
- 	ul.keyframe-footer-fader {
-                li {
-                        @include bg-abs;
-                        background-attachment: fixed;
-                        opacity: 0;
-                        @include animation(fade-out 27s infinite both);
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/xango-zumbi-roda-800x1200px.jpeg);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-chama-formiguinha-2000x1350px.jpeg);
-                        }
-                }
-                li:nth-child(2) {
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-calango-atabaque-800x1200px.jpeg);
-                        @include animation-delay(18s);
-                        @media (min-width: $mq-med) {
-                                background-image: $zumba-freeze-2000x1350px;
-                        }
-                }
-                li:nth-child(3) {
-                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/segredo-calango-roda-800x1200px.jpeg);
-                        @include animation-delay(9s);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/formiguinha-calango-roda-2000x1300px.jpg);
-                        }
-                }
 	}
 }

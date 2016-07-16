@@ -199,47 +199,6 @@
 		}
 	}
 
-	.section-footer {
-                position: relative;
-                z-index: 1;
-                width: 100%;
-                min-height: 100vh;
-                text-align: center;
-                color: $color-dark;
-                background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
-                background-color: rgba($color-light,1);
-                background-position: center;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                background-size: cover;
-                -o-background-size: cover;
-		.second-layer {
-			position: absolute;
-			width: 100%;
-			min-height: 100vh;
-			top: 0;
-			left: 0;
-			z-index: 2;
-			background-color: rgba($color-light,0.9);
-			padding: 4em 0;
-			.notice {
-				padding: 2em 0;
-			}
-			a {
-				color: $color-dark;
-				font-family: Lato;
-				font-weight: 100;
-				text-decoration: none;
-				text-transform: lowercase;
-				transition: all ease-out 3.5s 0.5s;
-			}
-			a:hover {
-				color: $color-grey;
-                        	transform: scale(0.9);
-			}
-		}
-	}
-
 	.bg-primary {
 	    	background-color: $color-grey;
 	}
